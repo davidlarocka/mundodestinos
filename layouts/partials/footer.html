@@ -36,7 +36,7 @@
             <li><a href="{{ $.Site.BaseURL }}zonas/africa/africa" id="destino_africa">África</li></a>
           </ul>
         </div>
-        <div class="col m4 s12">
+        <div class="col m4 s12" id="formulario_envio">
           <h4>Solicitar ejecutivo</h4>
           <form id="formulario">
             <div class="input-field">
@@ -64,7 +64,7 @@
           <a href="#!" class="btn-floating modal-action modal-close"><i class="material-icons">close</i></a>
         </div>
     </div>
-    <div class="row center-align">
+    <div class="row center-align" id="pie_pagina">
       <p>Av. El Golf 99 Piso -1, Las Condes - Santiago - Chile · Teléfono: +56 2 387 7070 · adsmundo@adsmundo.cl · www.adsmundo.cl</p>
       <img src="{{ $.Site.BaseURL}}img/logos-footer.png" width="295" alt="">
       <div class="divider"></div>
@@ -248,6 +248,12 @@
     }
 
     var fullUrl = window.location.href;
+
+    if( searchLogo(fullUrl) != 'img/logo_ads_mundo.svg' ){
+      $("#pie_pagina").css("display", "none");
+      $("#formulario_envio").css("display", "none");
+    }
+
     $("#logo_image").attr("src", {{ $.Site.BaseURL }} + searchLogo(fullUrl));
 
     var base_url = window.location.origin;
