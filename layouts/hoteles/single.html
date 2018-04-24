@@ -1,0 +1,90 @@
+{{ partial "header.html" . }}
+{{ $nombreHotel := .Title }}
+
+<main class="container">
+{{ partial "logo.html" . }}
+
+  <section class="mainContent row">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="col s12">
+          {{ $url_zonas := .Params.url_zona }}
+          {{ if ne $nombreHotel "Decameron" }}
+            {{ range .Params.zonas_cadena }}
+              {{ $zona := . }}
+              {{ range $url_zonas }}
+                <a href="{{ $.Site.BaseURL }}{{ . }}" class="breadcrumb">{{ $zona }}</a>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+          <a href="#!" class="breadcrumb">Cadena {{ .Title }}</a>
+        </div>
+      </div>
+    </nav>
+    <section class="col m8 s12" id="destinos">
+      {{ $zonas_de_la_cadena := .Params.zonas_cadena }}
+      <!-- NOTE: aca es necesario iterar sobre todos las paginas de destinos y poder discriminar -->
+      <!-- NOTE: guardamos los datos de los hoteles en una variable -->
+      {{ $hoteles := .Site.Data.hoteles.hoteles_data }}
+      {{ range $.Site.Pages }}
+        {{ $titulo := .Title }}
+        {{ $zona := lower .Params.zona }}
+        <!--NOTE: tomamos la decision de que si el parametro corresponde al nombre del Hotel, entonces que cargue los destinos correspondientes -->
+        {{ $id_scroll_cadena := .Params.id_scroll_cadena }}
+        {{ range .Params.hotel_pertenece }}
+          {{ $hotel_destino := . }}
+          {{ if eq $nombreHotel $hotel_destino }}
+            <div class="destino-{{ $id_scroll_cadena }}" id="destino">
+              <h2 id="{{ $id_scroll_cadena }}" class="borderBottom">{{ $titulo }}</h2>
+             <!--NOTE: aca se cargan los datos correspondientes a los hoteles POR destino. Estos datos son el nombre del hotel y su imagen correspondiente -->
+             {{ range $hoteles }}
+               {{ if eq (lower .nombre) ( lower $nombreHotel) }}
+                 {{ range .zonas }}
+                   {{ $nombre_zona := .nombre }}
+                   <!-- NOTE: -->
+                   {{ if eq $zona $nombre_zona }}
+                     {{ range .destinos }}
+                       {{ if eq (lower $titulo) .nombre }}
+                         <div class="flex flexJustStart">
+                           {{ range .hoteles_destino }}
+                             <div class="col3">
+                               <a class="link_hoteles_zona" href="{{ .path }}">
+                                <img src="{{ $.Site.BaseURL }}{{ .imagen }}" alt="" class="responsive-img">
+                                <h3>{{ .nombre }}</h3>
+                               </a>
+                             </div>
+                           {{ end }}
+                         </div>
+                       {{ end }}
+                     {{ end }}
+                   {{ end }}
+                 {{ end }}
+               {{ end }}
+             {{ end }}
+            </div>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </section>
+    <br>
+  </section>
+</main>
+
+<script type="text/javascript" >
+
+  var base_url = window.location.origin;
+  var folder = '/ads/';
+  var hoteles_zonas = '';
+
+  $( ".link_hoteles_zona" ).each(function( index ) {
+    console.log( index + ": " + $(this).attr('href') );
+    hoteles_zonas = $(this).attr('href')
+    $(this).attr('href', base_url + folder + hoteles_zonas );
+    console.log( index + "cambia a : " + $(this).attr('href') );
+  });
+
+</script>
+
+{{ partial "scripts.html" . }}
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,3025 @@
+[
+  {
+    "nombre": "Iberostar",
+    "img": "img/hoteles/hoteles_home/hotel1.jpg",
+    "path": "hoteles/iberostar",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "bayahibe",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Hacienda Dominicus",
+                "imagen": "img/zonas/caribe/destinos/bayahibe/cadenas_hoteleras/iberostar/iberostar_hacienda_dominicus/principal_iberostar_hacienda_dominicus.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_hacienda_dominicus"
+              }
+            ]
+          },
+          {
+            "nombre": "cancún",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Cancún",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/iberostar/iberostar_cancun/principal_iberostar_cancun.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_cancun"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo guillermo",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Daiquiri",
+                "imagen": "img/zonas/caribe/destinos/cayo_guillermo/cadenas_hoteleras/iberostar/iberostar_daiquiri/principal_iberostar_daiquiri.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_daiquiri"
+              },
+              {
+                "nombre": "Iberostar Playa Pilar",
+                "imagen": "img/zonas/caribe/destinos/cayo_guillermo/cadenas_hoteleras/iberostar/iberostar_playa_pilar/principal_iberostar_playa_pilar.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_playa_pilar"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo ensenachos",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Ensenachos",
+                "imagen": "img/zonas/caribe/destinos/cayo_ensenachos/cadenas_hoteleras/iberostar_ensenachos/principal_iberostar_ensenachos.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_ensenachos"
+              }
+            ]
+          },
+          {
+            "nombre": "cozumel",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Cozumel",
+                "imagen": "img/zonas/caribe/destinos/cozumel/cadenas_hoteleras/iberostar/iberostar_cozumel/principal_iberostar_cozumel.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_cozumel"
+              }
+            ]
+          },
+          {
+            "nombre": "la habana",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Parque Central",
+                "imagen": "img/zonas/caribe/destinos/la_habana/cadenas_hoteleras/iberostar/iberostar_parque_central/principal_iberostar_parque_central.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_parque_central"
+              }
+            ]
+          },
+          {
+            "nombre": "montego bay",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Grand Hotel Rose Hall",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/iberostar/iberostar_grand_hotel_rose_hall/principal_iberostar_grand_hotel_rose_hall.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_grand_hotel_rose_hall"
+              },
+              {
+                "nombre": "Iberostar Rose Hall Beach",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/iberostar/iberostar_rose_hall_beach/principal_iberostar_rose_hall_beach.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_rose_hall_beach"
+              },
+              {
+                "nombre": "Iberostar Rose Hall Suites",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/iberostar/iberostar_rose_hall_suites/principal_iberostar_rose_hall_suites.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_rose_hall_suites"
+              }
+            ]
+          },
+          {
+            "nombre": "playa del carmen",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Quetzal",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/iberostar/iberostar_quetzal/principal_iberostar_quetzal.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_quetzal"
+              },
+              {
+                "nombre": "Iberostar Tucán",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/iberostar/iberostar_tucan/principal_iberostar_tucan.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_tucan"
+              }
+            ]
+          },
+          {
+            "nombre": "puerto plata",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Costa Dorada",
+                "imagen": "img/zonas/caribe/destinos/puerto_plata/cadenas_hoteleras/iberostar/iberostar_costa_dorada/principal_iberostar_costa_dorada.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_costa_dorada"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Bávaro Suites",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/iberostar/iberostar_bavaro_suites/principal_iberostar_bavaro_suites.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_bavaro_suites"
+              },
+              {
+                "nombre": "Iberostar Dominicana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/iberostar/iberostar_dominicana/principal_iberostar_dominicana.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_dominicana"
+              },
+              {
+                "nombre": "Iberostar Grand Hotel Bávaro",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/iberostar/iberostar_grand_hotel_bavaro/principal_iberostar_grand_hotel_bavaro.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_grand_hotel_bavaro"
+              },
+              {
+                "nombre": "Iberostar Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/iberostar/iberostar_punta_cana/principal_punta_cana.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_punta_cana"
+              }
+            ]
+          },
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Grand Hotel Paraíso",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/Iberostar/iberostar_grand_hotel_paraiso/principal_iberostar_grand_hotel_paraiso.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_grand_hotel_paraiso"
+              },
+              {
+                "nombre": "Iberostar Paraíso Beach",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/Iberostar/iberostar_paraiso_beach/principal_iberostar_paraiso_beach.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_paraiso_beach"
+              },
+              {
+                "nombre": "Iberostar Paraíso Beach Paraíso del Mar",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/Iberostar/iberostar_paraiso_beach_paraiso_del_mar/principal_iberostar_paraiso_beach-paraiso_del_mar.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_paraiso_beach_paraiso_del_mar"
+              },
+              {
+                "nombre": "Iberostar Paraíso Lindo",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/Iberostar/iberostar_paraiso_lindo/principal_iberostar_paraiso_lindo.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_paraiso_lindo"
+              },
+              {
+                "nombre": "Iberostar Paraíso Maya",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/Iberostar/iberostar_paraiso_maya/principal_iberostar_paraiso_maya.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_paraiso_maya"
+              }
+            ]
+          },
+          {
+            "nombre": "riviera nayarit",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Playa Mita",
+                "imagen": "img/zonas/caribe/destinos/riviera_nayarit/cadenas_hoteleras/iberostar/iberostar_playa_mita/principal_iberostar_playa_mita.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_playa_mita"
+              }
+            ]
+          },
+          {
+            "nombre": "trinidad",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Grand Hotel Trinidad",
+                "imagen": "img/zonas/caribe/destinos/trinidad/cadenas_hoteleras/iberostar/iberostar_grand_hotel_trinidad/principal_iberostar_grand_hotel_trinidad.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_grand_hotel_trinidad"
+              }
+            ]
+          },
+          {
+            "nombre": "varadero",
+            "hoteles_destino": [
+              {
+                "nombre": "Iberostar Bella Vista",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/iberostar/iberostar_bella_vista_varadero/principal_iberostar_bella_vista_varadero.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_bella_vista_varadero"
+              },
+              {
+                "nombre": "Iberostar Laguna Azul",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/iberostar/iberostar_laguna_azul/principal_iberostar_laguna_azul.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_laguna_azul"
+              },
+              {
+                "nombre": "Iberostar Playa Alameda",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/iberostar/iberostar_playa_alameda/principal_iberostar_playa_alameda.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_playa_alameda"
+              },
+              {
+                "nombre": "Iberostar Taínos",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/iberostar/iberostar_tainos/principal_iberostar_tainos.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_tainos"
+              },
+              {
+                "nombre": "Iberostar Varadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/iberostar/iberostar_varadero/principal_iberostar_varadero.jpg",
+                "path": "hoteles_zonas/zona_caribe/iberostar/iberostar_varadero"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "africa"
+      }
+    ]
+  },
+  {
+    "nombre": "Bahía Príncipe",
+    "img": "img/hoteles/hoteles_home/hotel2.jpg",
+    "path": "hoteles/bahia_principe",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "la romana",
+            "hoteles_destino": [
+              {
+                "nombre": "Grand Bahía Príncipe La Romana",
+                "imagen": "img/zonas/caribe/destinos/la_romana/cadenas_hoteleras/bahia_principe/grand_bahia_principe_la_romana/principal_grand_bahia_principe_la_romana.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_la_romana"
+              },
+              {
+                "nombre": "Luxury Bahía Príncipe Bouganville",
+                "imagen": "img/zonas/caribe/destinos/la_romana/cadenas_hoteleras/bahia_principe/luxury_bahia_principe_bouganville/principal_luxury_bahia_principe_bouganville.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/luxury_bahia_principe_bouganville"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino": [
+              {
+                "nombre": "Grand Bahía Príncipe Bávaro",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/bahia_principe/grand_bahia_principe_bavaro/principal_grand_bahia_principe_bavaro.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_bavaro"
+              },
+              {
+                "nombre": "Grand Bahía Príncipe Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/bahia_principe/grand_bahia_principe_punta_cana/principal_grand_bahia_principe_punta_cana.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_punta_cana"
+              },
+              {
+                "nombre": "Grand Bahía Príncipe Turquesa",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/bahia_principe/grand_bahia_principe_turquesa/principal_grand_bahia_principe_turquesa.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_turquesa"
+              },
+              {
+                "nombre": "Luxury Bahía Príncipe Ambar Blue",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/bahia_principe/luxury_bahia_principe_ambar_blue/principal_luxury_bahia_principe_ambar_blue.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/luxury_bahia_principe_ambar_blue"
+              },
+              {
+                "nombre": "Luxury Bahía Príncipe Ambar Green",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/bahia_principe/luxury_bahia_principe_ambar_green/principal_luxury_bahia_principe_ambar_green.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/luxury_bahia_principe_ambar_green"
+              },
+              {
+                "nombre": "Luxury Bahía Príncipe Esmeralda",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/bahia_principe/luxury_bahia_principe_esmeralda/principal_luxury_bahia_principe_esmeralda.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/luxury_bahia_principe_esmeralda"
+              },
+              {
+                "nombre": "Luxury Bahía Príncipe Fantasia",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/bahia_principe/luxury_bahia_principe_fantasia/principal_luxury_bahia_principe_fantasia.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/luxury_bahia_principe_fantasia"
+              }
+            ]
+          },
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino": [
+              {
+                "nombre": "Grand Bahía Príncipe Coba",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/bahia_principe/grand_bahia_principe_coba/principal_grand_bahia_principe_coba.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_coba"
+              },
+              {
+                "nombre": "Grand Bahía Príncipe Tulum",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/bahia_principe/grand_bahia_principe_tulum/principal_grand_bahia_principe_tulum.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_tulum"
+              },
+              {
+                "nombre": "Luxury Bahía Príncipe Akumal",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/bahia_principe/luxury_bahia_principe_akumal/principal_luxury_bahia_principe_akumal.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/luxury_bahia_principe_akumal"
+              },
+              {
+                "nombre": "Luxury Bahía Príncipe Sian Ka'an",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/bahia_principe/luxury_bahia_principe_sian_kaan/principal_luxury_bahia_principe_sian_kaan.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/luxury_bahia_principe_sian_kaan"
+              }
+            ]
+          },
+          {
+            "nombre": "runaway bay",
+            "hoteles_destino": [
+              {
+                "nombre": "Grand Bahía Príncipe Jamaica",
+                "imagen": "img/zonas/caribe/destinos/runaway_bay/cadenas_hoteleras/bahia_principe/grand_bahia_principe_jamaica/principal_grand_bahia_principe_jamaica.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_jamaica"
+              },
+              {
+                "nombre": "Luxury Bahía Príncipe Runaway Bay",
+                "imagen": "img/zonas/caribe/destinos/runaway_bay/cadenas_hoteleras/bahia_principe/luxury_bahia_principe_runaway_bay/principal_luxury_bahia_principe_runaway_bay.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/luxury_bahia_principe_runaway_bay"
+              }
+            ]
+          },
+          {
+            "nombre": "samaná",
+            "hoteles_destino": [
+              {
+                "nombre": "Grand Bahía Príncipe Cayacoa",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/bahia_principe/grand_bahia_principe_cayacoa/principal_grand_bahia_principe_cayacoa.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_cayacoa"
+              },
+              {
+                "nombre": "Grand Bahía Príncipe El Portillo",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/bahia_principe/grand_bahia_principe_el_portillo/principal_grand_bahia_principe_el_portillo.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_el_portillo"
+              },
+              {
+                "nombre": "Grand Bahía Príncipe San Juan",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/bahia_principe/grand_bahia_principe_san_juan/principal_grand_bahia_principe_san_juan.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/grand_bahia_principe_san_juan"
+              },
+              {
+                "nombre": "Luxury Bahía Príncipe Cayo Levantado",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/bahia_principe/luxury_bahia_principe_cayo_levantado/principal_luxury_bahia_principe_cayo_levantado.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/luxury_bahia_principe_cayo_levantado"
+              },
+              {
+                "nombre": "Principal Luxury Bahía Príncipe Samaná",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/bahia_principe/principal_luxury_bahia_principe_samana/principal_luxury_bahia_principe_samana.jpg",
+                "path": "hoteles_zonas/zona_caribe/bahia_principe/principal_luxury_bahia_principe_samana"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Meliá",
+    "img": "img/hoteles/hoteles_home/hotel3.jpg",
+    "path": "hoteles/melia",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cancún",
+            "hoteles_destino": [
+              {
+                "nombre": "Paradisus Cancún",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/paradisus/paradisus_cancun/principal_paradisus_cancun.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/paradisus_cancun"
+              }
+            ]
+          },
+          {
+            "nombre": "bahamas",
+            "hoteles_destino": [
+              {
+                "nombre": "Meliá Nassau Beach",
+                "imagen": "img/zonas/caribe/destinos/bahamas/cadenas_hoteleras/melia/melia_nassau_beach/principal_melia_nassau.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_nassau_beach"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo coco",
+            "hoteles_destino": [
+              {
+                "nombre": "Meliá Cayo Coco",
+                "imagen": "img/zonas/caribe/destinos/cayo_coco/cadenas_hoteleras/melia/melia_cayo_coco/principal_melia_cayo_coco.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_cayo_coco"
+              },
+              {
+                "nombre": "Meliá Jardines del Rey",
+                "imagen": "img/zonas/caribe/destinos/cayo_coco/cadenas_hoteleras/melia/melia_jardines_del_rey/principal_melia_jardines_del_rey.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_jardines_del_rey"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo guillermo",
+            "hoteles_destino": [
+              {
+                "nombre": "Meliá Cayo Guillermo",
+                "imagen": "img/zonas/caribe/destinos/cayo_guillermo/cadenas_hoteleras/melia/melia_cayo_guillermo/principal_melia_cayo_guillermo.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_cayo_guillermo"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo santa maría",
+            "hoteles_destino": [
+              {
+                "nombre": "Meliá Buenavista",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/melia/melia_buenavista/principal_melia_buenavista.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_buenavista"
+              },
+              {
+                "nombre": "Meliá Cayo Santa María",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/melia/melia_cayo_santamaria/principal_cayo_santa_maria.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_cayo_santa_maria"
+              },
+              {
+                "nombre": "Meliá Las Dunas",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/melia/melia_las_dunas/portada_melia_las_dunas.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_las_dunas"
+              },
+              {
+                "nombre": "Paradisus Los Cayos",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/paradisus/paradisus_los_cayos/principal_paradisus_los_cayos.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/paradisus_los_cayos"
+              }
+            ]
+          },
+          {
+            "nombre": "holguin",
+            "hoteles_destino": [
+              {
+                "nombre": "Paradisus Rio de Oro",
+                "imagen": "img/zonas/caribe/destinos/holguin/cadenas_hoteleras/paradisus/paradisus_rio_de_oro/principal_paradisus_rio_de_oro.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/paradisus_rio_de_oro"
+              }
+            ]
+          },
+          {
+            "nombre": "la habana",
+            "hoteles_destino": [
+              {
+                "nombre": "Meliá Cohiba",
+                "imagen": "img/zonas/caribe/destinos/la_habana/cadenas_hoteleras/melia/melia_cohiba/principal_melia_cohiba.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_cohiba"
+              },
+              {
+                "nombre": "Meliá Habana",
+                "imagen": "img/zonas/caribe/destinos/la_habana/cadenas_hoteleras/melia/melia_habana/principal_melia_habana.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_habana"
+              }
+            ]
+          },
+          {
+            "nombre": "montego bay",
+            "hoteles_destino": [
+              {
+                "nombre": "Meliá Braco",
+                "imagen": "img/zonas/caribe/destinos/rio_bueno/cadenas_hoteleras/melia_braco/principal_melia_braco.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_braco"
+              }
+            ]
+          },
+          {
+            "nombre": "playa del carmen",
+            "hoteles_destino": [
+              {
+                "nombre": "Paradisus La Esmeralda",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/paradisus/paradisus_la_esmeralda/principal_paradisus_la_esmeralda.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/paradisus_la_esmeralda"
+              },
+              {
+                "nombre": "Paradisus La Perla",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/paradisus/paradisus_la_perla/principal_paradisus_la_perla.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/paradisus_la_perla"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino": [
+              {
+                "nombre": "Meliá Caribe Tropical",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/melia/melia_caribe_tropical/principal_melia_caribe_tropical.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_caribe_tropical"
+              },
+              {
+                "nombre": "Paradisus Palma Real",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/paradisus/paradisus_palma_real/principal_paradisus_palma_real.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/paradisus_palma_real"
+              },
+              {
+                "nombre": "Paradisus Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/paradisus/paradisus_punta_cana/principal_paradisus_punta_cana.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/paradisus_punta_cana"
+              },
+              {
+                "nombre": "The Level at Meliá Caribe Tropical",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/paradisus/the_level_at_melia_caribe_tropical/principal_the_level_at_melia_caribe_tropical.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/the_level_at_melia_caribe_tropical"
+              },
+              {
+                "nombre": "The Reserve Palma Real",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/paradisus/the_reserve_palma_real/principal_the_reserve_palma_real.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/the_reserve_palma_real"
+              },
+              {
+                "nombre": "The Reserve Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/paradisus/the_reserve_punta_cana/principal_the_reserve_punta_cana.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/the_reserve_punta_cana"
+              }
+            ]
+          },
+          {
+            "nombre": "santiago de cuba",
+            "hoteles_destino": [
+              {
+                "nombre": "Meliá Santiago de Cuba",
+                "imagen": "img/zonas/caribe/destinos/santiago_cuba/cadenas_hoteleras/melia/melia_santiago_de_cuba/principal_melia_santiago_de_cuba.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_santiago_cuba"
+              }
+            ]
+          },
+          {
+            "nombre": "varadero",
+            "hoteles_destino": [
+              {
+                "nombre": "Meliá Las Américas",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/melia/melia_las_americas/principal_melia_las_americas.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_las_americas"
+              },
+              {
+                "nombre": "Meliá Las Antillas",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/melia/melia_las_antillas/principal_melia_las_antillas.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_las_antillas"
+              },
+              {
+                "nombre": "Meliá Marina Varadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/melia/melia_marina_varadero/principal_melia_marina_varadero.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_marina_varadero"
+              },
+              {
+                "nombre": "Meliá Península Varadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/melia/melia_peninsula_varadero/portada_melia_peninsula_varadero.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_peninsula_varadero"
+              },
+              {
+                "nombre": "Meliá Varadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/melia/melia_varadero/principal_melia_varadero.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_varadero"
+              },
+              {
+                "nombre": "Paradisus Princesa del Mar",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/paradisus/paradisus_princesa_del_mar/principal_paradisus_princesa_del_mar.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/paradisus_princesa_del_mar"
+              },
+              {
+                "nombre": "Paradisus Varadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/paradisus/paradisus_varadero/principal_paradisus_varadero.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/paradisus_varadero"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Barceló",
+    "img": "img/hoteles/hoteles_home/hotel6.jpg",
+    "path": "hoteles/barcelo",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "aruba",
+            "hoteles_destino": [
+              {
+                "nombre": "Barceló Aruba",
+                "imagen": "img/zonas/caribe/destinos/aruba/cadenas_hoteleras/barcelo/barcelo_aruba/principal_barcelo_aruba.jpg",
+                "path": "hoteles_zonas/zona_caribe/barcelo/barcelo_aruba"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino": [
+              {
+                "nombre": "Barceló Bávaro Palace",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/barcelo/barcelo_bavaro_palace/principal_barcelo_bavaro_palace.jpg",
+                "path": "hoteles_zonas/zona_caribe/barcelo/barcelo_bavaro_palace"
+              }
+            ]
+          },
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino": [
+              {
+                "nombre": "Barceló Maya Grand Resort",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/barcelo/barcelo_maya_grand_resort/principal_barcelo_maya_grand_resort.jpg",
+                "path": "hoteles_zonas/zona_caribe/barcelo/barcelo_maya_grand_resort"
+              },
+              {
+                "nombre": "Barceló Maya Palace",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/barcelo/barcelo_maya_palace/principal_barcelo_maya_palace.jpg",
+                "path": "hoteles_zonas/zona_caribe/barcelo/barcelo_maya_palace"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Occidental",
+    "img": "img/hoteles/hoteles_home/hotel13.jpg",
+    "path": "hoteles/occidental",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino": [
+              {
+                "nombre": "Occidental at Xcaret",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/occidental/occidental_at_xcaret/principal_occidental_at_xcaret.jpg",
+                "path": "hoteles_zonas/zona_caribe/occidental/occidental_at_xcaret"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Palace",
+    "img": "img/hoteles/hoteles_home/hotel7.jpg",
+    "path": "hoteles/palace",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cancún",
+            "hoteles_destino": [
+              {
+                "nombre": "Moon Palace Cancún Nizuc",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/palace/moon_palace_cancun_nizuc/principal_moon_palace_cancun_nizuc.jpg",
+                "path": "hoteles_zonas/zona_caribe/palace/moon_palace_cancun_nizuc"
+              },
+              {
+                "nombre": "Moon Palace Cancún Sunrise",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/palace/moon_palace_cancun_sunrise/principal_moon_palace_cancun_sunrise.jpg",
+                "path": "hoteles_zonas/zona_caribe/palace/moon_palace_cancun_sunrise"
+              },
+              {
+                "nombre": "The Grand at Moon Palace Cancún",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/palace/the_grand_at_moon_palace_cancun/principal_the_grand_at_moon_palace_cancun.jpg",
+                "path": "hoteles_zonas/zona_caribe/palace/the_grand_at_moon_palace_cancun"
+              }
+            ]
+          },
+          {
+            "nombre": "ocho ríos",
+            "hoteles_destino": [
+              {
+                "nombre": "Moon Palace Jamaica",
+                "imagen": "img/zonas/caribe/destinos/ocho_rios/cadenas_hoteleras/palace/moon_palace_jamaica/principal_moon_palace_jamaica.jpg",
+                "path": "hoteles_zonas/zona_caribe/palace/moon_palace_jamaica"
+              }
+            ]
+          },
+          {
+            "nombre": "playa del carmen",
+            "hoteles_destino": [
+              {
+                "nombre": "Playacar Palace",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/palace/playacar_palace/principal_playacar_palace.jpg",
+                "path": "hoteles_zonas/zona_caribe/palace/playacar_palace"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Breathless",
+    "img": "img/hoteles/hoteles_home/hotel17.jpg",
+    "path": "hoteles/breathless",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "los cabos",
+            "hoteles_destino": [
+              {
+                "nombre": "Breathless Cabo San Lucas Resort Spa",
+                "imagen": "img/zonas/caribe/destinos/los_cabos/cadenas_hoteleras/am_resort/breathless/breathless_cabo_san_lucas_resort_spa/principal_breathless_cabo_san_lucas_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/breathless/breathless_cabo_san_lucas_resort_spa"
+              }
+            ]
+          },
+          {
+            "nombre": "montego bay",
+            "hoteles_destino": [
+              {
+                "nombre": "Breathless Montego Bay Resort Spa",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/am_resort/breathless/breathless_montego_bay_resort_spa/principal_breathless_montego_bay_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/breathless/breathless_montego_bay_resort_spa"
+              },
+              {
+                "nombre": "Meliá Braco",
+                "imagen": "img/zonas/caribe/destinos/rio_bueno/cadenas_hoteleras/melia_braco/principal_melia_braco.jpg",
+                "path": "hoteles_zonas/zona_caribe/melia/melia_braco"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino": [
+              {
+                "nombre": "Breathless Punta Cana Resort Spa",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/am_resort/breathless/breathless_punta_cana_resort_spa/principal_breathless_punta_cana_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/breathless/breathless_punta_cana_resort_spa"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Now",
+    "img": "img/hoteles/hoteles_home/hotel19.jpg",
+    "path": "hoteles/now",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "puerto vallarta",
+            "hoteles_destino": [
+              {
+                "nombre": "Now Amber Puerto Vallarta",
+                "imagen": "img/zonas/caribe/destinos/puerto_vallarta/cadenas_hoteleras/am_resort/now/now_amber_puerto_vallarta/principal_now_amber_puerto_vallarta.jpg",
+                "path": "hoteles_zonas/zona_caribe/now/now_amber_puerto_vallarta"
+              }
+            ]
+          },
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino": [
+              {
+                "nombre": "Now Jade Riviera Cancún",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/am_resort/now/now_jade_riviera_cancun/portada_now_jade_riviera_cancun.jpg",
+                "path": "hoteles_zonas/zona_caribe/now/now_jade_riviera_cancun"
+              },
+              {
+                "nombre": "Now Sapphire Riviera Cancún",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/am_resort/now/now_sapphire_riviera_cancun/principal_now_sapphire_riviera_cancun.jpg",
+                "path": "hoteles_zonas/zona_caribe/now/now_sapphire_riviera_cancun"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino": [
+              {
+                "nombre": "Now Larimar Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/am_resort/now/now_larimar_punta_cana/principal_now_larimar_punta_cana.jpg",
+                "path": "hoteles_zonas/zona_caribe/now/now_larimar_punta_cana"
+              },
+              {
+                "nombre": "Now Onyx Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/am_resort/now/now_onyx_punta_cana/principal_now_onyx_punta_cana.jpg",
+                "path": "hoteles_zonas/zona_caribe/now/now_onyx_punta_cana"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Dreams",
+    "img": "img/hoteles/hoteles_home/hotel20.jpg",
+    "path": "hoteles/dreams",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "bayahibe",
+            "hoteles_destino": [
+              {
+                "nombre": "Dreams Dominicus La Romana",
+                "imagen": "img/zonas/caribe/destinos/la_romana/cadenas_hoteleras/am_resort/dreams/dreams_dominicus_la_romana/principal_dreams_dominicus_la_romana.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_dominicus_la_romana"
+              },
+              {
+                "nombre": "Dreams La Romana Resort & Spa",
+                "imagen": "img/zonas/caribe/destinos/la_romana/cadenas_hoteleras/am_resort/dreams/dreams_la_romana_resort_spa/principal_dreams_la_romana_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_la_romana_resort_spa"
+              }
+            ]
+          },
+          {
+            "nombre": "cancún",
+            "hoteles_destino": [
+              {
+                "nombre": "Dreams Sands Cancún Resort & Spa",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/am_resort/dreams/dreams_sands_cancun_resort_spa/principal_dreams_sands_cancun_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_sands_cancun_resort_spa"
+              }
+            ]
+          },
+          {
+            "nombre": "huatulco",
+            "hoteles_destino": [
+              {
+                "nombre": "Dreams Huatulco Resort & Spa",
+                "imagen": "img/zonas/caribe/destinos/huatulco/cadenas_hoteleras/am_resort/dreams/dreams_huatulco_resort_spa/principal_dreams_huatulco_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_huatulco_resort_spa"
+              }
+            ]
+          },
+          {
+            "nombre": "los cabos",
+            "hoteles_destino": [
+              {
+                "nombre": "Dreams Los Cabos Suits Golf Resort & Spa",
+                "imagen": "img/zonas/caribe/destinos/los_cabos/cadenas_hoteleras/am_resort/dreams/dreams_los_cabos_suites_golf_resort_spa/principal_dreams_los_cabos_suites_golf_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_los_cabos_suites_golf_resort_spa"
+              }
+            ]
+          },
+          {
+            "nombre": "puerto vallarta",
+            "hoteles_destino": [
+              {
+                "nombre": "Dreams Villamagna Nuevo Vallarta",
+                "imagen": "img/zonas/caribe/destinos/puerto_vallarta/cadenas_hoteleras/am_resort/dreams/dreams_villamagna_nuevo_vallarta/principal_dreams_villamagna_nuevo-_vallarta.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_villamagna_nuevo_vallarta"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino": [
+              {
+                "nombre": "Dreams Palm Beach Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/am_resort/dreams/dreams_palm_beach_punta_cana/principal_dreams_palm_beach_punta_cana.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_palm_beach_punta_cana"
+              },
+              {
+                "nombre": "Dreams Punta Cana Resort & Spa",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/am_resort/dreams/dreams_punta_cana_resort_spa/principal_dreams_punta_cana_resort-_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_punta_cana_resort_spa"
+              }
+            ]
+          },
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino": [
+              {
+                "nombre": "Dreams Puerto Aventuras Resort & Spa",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/am_resort/dreams/dreams_puerto_aventuras_resort_spa/principal_dreams_puerto_aventuras_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_puerto_aventuras_resort_spa"
+              },
+              {
+                "nombre": "Dreams Riviera Cancún Resort & Spa",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/am_resort/dreams/dreams_riviera_cancun_resort_spa/principal_dreams_riviera_cancun_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_riviera_cancun_resort_spa"
+              },
+              {
+                "nombre": "Dreams Tulum Resort & Spa",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/am_resort/dreams/dreams_tulum_resort_spa/principal_dreams_tulum_resort_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/dreams/dreams_tulum_resort_spa"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Coming2",
+    "img": "img/hoteles/hoteles_home/hotel21.jpg",
+    "path": "hoteles/coming2",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino": [
+              {
+                "nombre": "Bacalar",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/coming2/bacalar/principal_bacalar.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/bacalar"
+              },
+              {
+                "nombre": "Chichen Itza",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/coming2/chichen_itza/principal_chichen_itza.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/chichen_itza"
+              },
+              {
+                "nombre": "Holbox",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/coming2/holbox/principal_holbox.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/holbox"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino": [
+              {
+                "nombre": "Isla Saona",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/coming2/isla_saona/principal_isla_saona_coming2.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/isla_saona"
+              },
+              {
+                "nombre": "Why Not Party",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/coming2/why_not_party/principal_why_not_party.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/why_not_party"
+              }
+            ]
+          },
+          {
+            "nombre": "samaná",
+            "hoteles_destino": [
+              {
+                "nombre": "Samaná Cascada Limón",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/coming2/samana_cascada_limon/principal_samana_cascada_limon.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/samana_cascada_limon"
+              },
+              {
+                "nombre": "Samaná Deluxe",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/coming2/samana_deluxe/principal_samana_deluxe.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/samana_deluxe"
+              },
+              {
+                "nombre": "Samaná Las Galeras Playa Rincón",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/coming2/samana_las_galeras_playa_rincon/principal_samana_las_galeras_playa_rincon.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/samana_las_galeras_playa_rincon"
+              }
+            ]
+          },
+          {
+            "nombre": "runaway bay",
+            "hoteles_destino": [
+              {
+                "nombre": "Laguna Luminosa",
+                "imagen": "img/zonas/caribe/destinos/runaway_bay/cadenas_hoteleras/coming2/laguna_luminosa/principal_laguna_luminosa.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/laguna_luminosa"
+              },
+              {
+                "nombre": "Nine Miles",
+                "imagen": "img/zonas/caribe/destinos/runaway_bay/cadenas_hoteleras/coming2/nine_miles/principal_nine_miles.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/nine_miles"
+              }
+            ]
+          },
+          {
+            "nombre": "negril",
+            "hoteles_destino": [
+              {
+                "nombre": "Negril y Rick Café",
+                "imagen": "img/zonas/caribe/destinos/negril/cadenas_hoteleras/coming2/negril_y_rick_cafe/principal_negril_y_rick_cafe.jpg",
+                "path": "hoteles_zonas/zona_caribe/coming2/negril_y_rick_cafe"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Catalonia",
+    "img": "img/hoteles/hoteles_home/hotel22.jpg",
+    "path": "hoteles/catalonia",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino":[
+              {
+                "nombre": "Catalonia Royal Tulum Beach Spa",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/catalonia/catalonia_royal_tulum_beach_spa/principal_catalonia_royal_tulum_beach_spa.jpg",
+                "path": "hoteles_zonas/zona_caribe/catalonia/catalonia_royal_tulum_beach_spa"
+              },
+              {
+                "nombre": "Catalonia Yucatán Beach",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/catalonia/catalonia_yucatan_beach/principal_catalonia_yucatan_beach.jpg",
+                "path": "hoteles_zonas/zona_caribe/catalonia/catalonia_yucatan_beach"
+              }
+            ]
+          },
+          {
+            "nombre": "playa del carmen",
+            "hoteles_destino":[
+              {
+                "nombre": "Catalonia Playa Maroma",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/catalonia/catalonia_playa_maroma/principal_catalonia_playa_maroma.jpg",
+                "path": "hoteles_zonas/zona_caribe/catalonia/catalonia_playa_maroma"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino":[
+              {
+                "nombre": "Catalonia Bávaro Beach",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/catalonia/catalonia_bavaro_beach/principal_catalonia_bavaro_beach.jpg",
+                "path": "hoteles_zonas/zona_caribe/catalonia/catalonia_bavaro_beach"
+              },
+              {
+                "nombre": "Catalonia Royal Bávaro",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/catalonia/catalonia_royal_bavaro/principal_catalonia_royal_bavaro.jpg",
+                "path": "hoteles_zonas/zona_caribe/catalonia/catalonia_royal_bavaro"
+              }
+            ]
+          },
+          {
+            "nombre": "bayahibe",
+            "hoteles_destino":[
+              {
+                "nombre": "Catalonia Gran Dominicus",
+                "imagen": "img/zonas/caribe/destinos/bayahibe/cadenas_hoteleras/catalonia/catalonia_gran_dominicus/principal_catalonia_gran_dominicus.jpg",
+                "path": "hoteles_zonas/zona_caribe/catalonia/catalonia_gran_dominicus"
+              },
+              {
+                "nombre": "Catalonia Royal La Romana",
+                "imagen": "img/zonas/caribe/destinos/la_romana/cadenas_hoteleras/catalonia/catalonia_royal_la_romana/principal_catalonia_royal_la_romana.jpg",
+                "path": "hoteles_zonas/zona_caribe/catalonia/catalonia_royal_la_romana"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Casa Andina",
+    "img": "img/hoteles/hoteles_home/hotel23.jpg",
+    "path": "hoteles/casa_andina",
+    "zonas": [
+      {
+        "nombre": "sudamérica",
+        "path": "sudamerica.md",
+        "destinos": [
+          {
+            "nombre": "cusco",
+            "hoteles_destino":[
+              {
+                "nombre": "Casa Andina Premium Valle Sagrado Hotel & Villas",
+                "imagen": "img/zonas/sudamerica/destinos/cusco/cadenas_hoteleras/casa_andina/casa_andina_premium_valle_sagrado/foto_principal_casa_andina_valle_sagrado.jpg",
+                "path": "hoteles_zonas/zona_sudamerica/casa_andina/casa_andina_valle_sagrado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Decameron",
+    "img": "img/hoteles/hoteles_home/hotel24.jpg",
+    "path": "hoteles/decameron",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cartagena de indias",
+            "hoteles_destino":[
+              {
+                "nombre": "Decameron Cartagena de Indias",
+                "imagen": "img/zonas/caribe/destinos/cartagena_indias/cadenas_hoteleras/decameron/decameron_cartagena/principal_decameron_cartagena.jpg",
+                "path": "hoteles_zonas/zona_caribe/decameron/decameron_cartagena"
+              }
+            ]
+          },
+          {
+            "nombre": "isla baru",
+            "hoteles_destino":[
+              {
+                "nombre": "Decameron Baru",
+                "imagen": "img/zonas/caribe/destinos/isla_rosario_baru/cadenas_hoteleras/decameron/decameron_baru/principal_decameron_baru.jpg",
+                "path": "hoteles_zonas/zona_caribe/decameron/decameron_baru"
+              }
+            ]
+          },
+          {
+            "nombre": "montego bay",
+            "hoteles_destino":[
+              {
+                "nombre": "Royal Decameron Montego Beach",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/decameron/royal_decameron_montego_beach/principal_royal_decameron_montego_beach.jpg",
+                "path": "hoteles_zonas/zona_caribe/decameron/royal_decameron_montego_beach"
+              }
+            ]
+          },
+          {
+            "nombre": "riviera nayarit",
+            "hoteles_destino":[
+              {
+                "nombre": "Decameron Complex",
+                "imagen": "img/zonas/caribe/destinos/riviera_nayarit/cadenas_hoteleras/decameron/decameron_complex/principal_decameron_complex.jpg",
+                "path": "hoteles_zonas/zona_caribe/decameron/decameron_complex"
+              }
+            ]
+          },
+          {
+            "nombre": "san andrés",
+            "hoteles_destino":[
+              {
+                "nombre": "Decameron Aquarium",
+                "imagen": "img/zonas/caribe/destinos/san_andres/cadenas_hoteleras/decameron/decameron_aquarium/principal_decameron_aquarium.jpg",
+                "path": "hoteles_zonas/zona_caribe/decameron/decameron_aquarium"
+              },
+              {
+                "nombre": "Decameron Isleño",
+                "imagen": "img/zonas/caribe/destinos/san_andres/cadenas_hoteleras/decameron/decameron_isleno/principal_decameron_isleno.jpg",
+                "path": "hoteles_zonas/zona_caribe/decameron/decameron_isleno"
+              },
+              {
+                "nombre": "Decameron San Luis",
+                "imagen": "img/zonas/caribe/destinos/san_andres/cadenas_hoteleras/decameron/decameron_san_luis/principal_decameron_san_luis.jpg",
+                "path": "hoteles_zonas/zona_caribe/decameron/decameron_san_luis"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "sudamérica",
+        "path": "sudamerica.md",
+        "destinos": [
+          {
+            "nombre": "playas del perú",
+            "hoteles_destino":[
+              {
+                "nombre": "Royal Decameron Punta Sal",
+                "imagen": "img/zonas/sudamerica/destinos/playas_del_peru/cadenas_hoteleras/decameron/royal_decameron_punta_sal/principal_royal_decameron_punta_sal.jpg",
+                "path": "hoteles_zonas/zona_sudamerica/decameron/royal_decameron_punta_sal"
+              }
+            ]
+          },
+          {
+            "nombre": "salinas",
+            "hoteles_destino":[
+              {
+                "nombre": "Royal Decameron Punta Centinela",
+                "imagen": "img/zonas/sudamerica/destinos/salinas/cadenas_hoteleras/royal_decameron_punta_centinela/principal_royal_decameron_punta_centinela.jpg",
+                "path": "hoteles_zonas/zona_sudamerica/decameron/royal_decameron_punta_centinela"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "centroamérica",
+        "path": "centroamerica.md",
+        "destinos": [
+          {
+            "nombre": "playa blanca",
+            "hoteles_destino":[
+              {
+                "nombre": "Royal Decameron Beach",
+                "imagen": "img/zonas/centroamerica/destinos/playa_blanca/cadenas_hoteleras/decameron/royal_decameron_beach/principal_decameron_panama.jpg",
+                "path": "hoteles_zonas/zona_centroamerica/decameron/royal_decameron_beach"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Sol",
+    "img": "img/hoteles/hoteles_home/hotel62.jpg",
+    "path": "hoteles/sol",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cayo coco",
+            "hoteles_destino":[
+              {
+                "nombre": "Sol Cayo Coco",
+                "imagen": "img/zonas/caribe/destinos/cayo_coco/cadenas_hoteleras/sol/sol_cayo_coco/principal_sol_cayo_coco.jpg",
+                "path": "hoteles_zonas/zona_caribe/sol/sol_cayo_coco"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo guillermo",
+            "hoteles_destino":[
+              {
+                "nombre": "Sol Cayo Guillermo",
+                "imagen": "img/zonas/caribe/destinos/cayo_guillermo/cadenas_hoteleras/sol/sol_cayo_guillermo/principal_sol_cayo_guillermo.jpg",
+                "path": "hoteles_zonas/zona_caribe/sol/sol_cayo_guillermo"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo largo",
+            "hoteles_destino":[
+              {
+                "nombre": "Sol Cayo Largo",
+                "imagen": "img/zonas/caribe/destinos/cayo_largo/cadenas_hoteleras/sol/sol_cayo_largo/principal_sol_cayo_largo.jpg",
+                "path": "hoteles_zonas/zona_caribe/sol/sol_cayo_largo"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo santa maría",
+            "hoteles_destino":[
+              {
+                "nombre": "Sol Cayo Santa María",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/sol/sol_cayo_santa_maria/principal_sol_cayo_santa_maria.jpg",
+                "path": "hoteles_zonas/zona_caribe/sol/sol_cayo_santa_maria"
+              }
+            ]
+          },
+          {
+            "nombre": "holguin",
+            "hoteles_destino":[
+              {
+                "nombre": "Sol Río de Luna y Mares",
+                "imagen": "img/zonas/caribe/destinos/holguin/cadenas_hoteleras/sol/sol_rio_de_luna_y_mares/principal_sol_rio_de_luna_y_mares.jpg",
+                "path": "hoteles_zonas/zona_caribe/sol/sol_rio_de_luna_y_mares"
+              }
+            ]
+          },
+          {
+            "nombre": "varadero",
+            "hoteles_destino":[
+              {
+                "nombre": "Sol Palmeras",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/sol/sol_palmeras/principal_sol_palmeras.jpg",
+                "path": "hoteles_zonas/zona_caribe/sol/sol_palmeras"
+              },
+              {
+                "nombre": "Sol Sirenas Coral",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/sol/sol_sirenas/principal_sol_sirenas_coral.jpg",
+                "path": "hoteles_zonas/zona_caribe/sol/sol_sirenas_coral"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Tryp",
+    "img": "img/hoteles/hoteles_home/hotel63.jpg",
+    "path": "hoteles/tryp",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cayo coco",
+            "hoteles_destino":[
+              {
+                "nombre": "Tryp cayo coco",
+                "imagen": "img/zonas/caribe/destinos/cayo_coco/cadenas_hoteleras/tryp/tryp_cayo_coco/portada_tryp_cayo_coco.jpg",
+                "path": "hoteles_zonas/zona_caribe/tryp/tryp_cayo_coco"
+              }
+            ]
+          },
+          {
+            "nombre": "la habana",
+            "hoteles_destino":[
+              {
+                "nombre": "Tryp Habana Libre",
+                "imagen": "img/zonas/caribe/destinos/la_habana/cadenas_hoteleras/tryp/tryp_habana_libre/principal_tryp_habana_libre.jpg",
+                "path": "hoteles_zonas/zona_caribe/tryp/tryp_habana_libre"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Oasis",
+    "img": "img/hoteles/hoteles_home/hotel64.jpg",
+    "path": "hoteles/oasis",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cancún",
+            "hoteles_destino":[
+              {
+                "nombre": "Grand Oasis Cancún",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/oasis/grand_oasis_cancun/principal_grand_oasis_cancun.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/grand_oasis_cancun"
+              },
+              {
+                "nombre": "Grand Oasis Palm",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/oasis/grand_oasis_palm/principal_grand_oasis_palm.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/grand_oasis_palm"
+              },
+              {
+                "nombre": "Grand Oasis Sens",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/oasis/grand_oasis_sens/principal_grand_oasis_sens.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/grand_oasis_sens"
+              },
+              {
+                "nombre": "Oasis Cancún Lite",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/oasis/oasis_cancun_lite/principal_oasis_cancun_lite.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/oasis_cancun_lite"
+              },
+              {
+                "nombre": "Oasis Palm",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/oasis/oasis_palm/principal_oasis_palm.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/oasis_palm"
+              },
+              {
+                "nombre": "Oh The Urban Oasis",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/oasis/oh_the_urban_oasis/principal_oh_the_urban_oasis.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/oh_the_urban_oasis"
+              },
+              {
+                "nombre": "Smart Cancún",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/oasis/smart_cancun/principal_smart_cancun.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/smart_cancun"
+              },
+              {
+                "nombre": "The Pyramid",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/oasis/the_pyramid/principal_the_pyramid.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/the_pyramid"
+              },
+              {
+                "nombre": "The Sian Ka´an at Grand Sens",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/oasis/the_sian_kaan_at_grand_sens/principal_the_sian_kaan_at_grand_sens.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/the_sian_kaan_at_grand_sens"
+              }
+            ]
+          },
+          {
+            "nombre": "tulum",
+            "hoteles_destino":[
+              {
+                "nombre": "Grand Oasis Tulum",
+                "imagen": "img/zonas/caribe/destinos/tulum/cadenas_hoteleras/oasis/grand_oasis_tulum/principal_grand_oasis_tulum.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/grand_oasis_tulum"
+              },
+              {
+                "nombre": "Oasis Tulum Lite",
+                "imagen": "img/zonas/caribe/destinos/tulum/cadenas_hoteleras/oasis/oasis_tulum_lite/principal_oasis_tulum_lite.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/oasis_tulum_lite"
+              },
+              {
+                "nombre": "The Sian Ka´an at Grand Tulum",
+                "imagen": "img/zonas/caribe/destinos/tulum/cadenas_hoteleras/oasis/the_sian_kaan_at_grand_tulum/principal_the_sian_kaan_at_grand_tulum.jpg",
+                "path": "hoteles_zonas/zona_caribe/oasis/the_sian_kaan_at_grand_tulum"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Blue Diamond",
+    "img": "img/hoteles/hoteles_home/hotel65.jpg",
+    "path": "hoteles/blue_diamond",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cancún",
+            "hoteles_destino":[
+              {
+                "nombre": "Hideaway at Royalton Riviera Cancún",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/blue_diamond/hideaway/hideaway_at_royalton_riviera_cancun/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/hideaway_at_royalton_riviera_cancun"
+              },
+              {
+                "nombre": "Royalton Riviera Cancún",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/blue_diamond/royalton/royalton_riviera_cancun/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/royalton_riviera_cancun"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo coco",
+            "hoteles_destino":[
+              {
+                "nombre": "Memories Caribe",
+                "imagen": "img/zonas/caribe/destinos/cayo_coco/cadenas_hoteleras/blue_diamond/memories/memories_caribe/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/memories_caribe"
+              },
+              {
+                "nombre": "Memories Flamenco",
+                "imagen": "img/zonas/caribe/destinos/cayo_coco/cadenas_hoteleras/blue_diamond/memories/memories_flamenco/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/memories_flamenco"
+              }
+            ]
+          },
+          {
+            "nombre": "holguin",
+            "hoteles_destino":[
+              {
+                "nombre": "Memories Holguin",
+                "imagen": "img/zonas/caribe/destinos/holguin/cadenas_hoteleras/blue_diamond/memories/memories_holguin/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/memories_holguin"
+              }
+            ]
+          },
+          {
+            "nombre": "montego bay",
+            "hoteles_destino":[
+              {
+                "nombre": "Royalton Blue Waters",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/blue_diamond/royalton/royalton_blue_waters/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/royalton_blue_waters"
+              },
+              {
+                "nombre": "Royalton White Sands",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/blue_diamond/royalton/royalton_white_sands/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/royalton_white_sands"
+              }
+            ]
+          },
+          {
+            "nombre": "la habana",
+            "hoteles_destino":[
+              {
+                "nombre": "Memories Miramar",
+                "imagen": "img/zonas/caribe/destinos/la_habana/cadenas_hoteleras/blue_diamond/memories/memories_miramar/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/memories_miramar"
+              },
+              {
+                "nombre": "Starfish Montehabana",
+                "imagen": "img/zonas/caribe/destinos/la_habana/cadenas_hoteleras/blue_diamond/starfish/starfish_montehabana/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/starfish_montehabana"
+              }
+            ]
+          },
+          {
+            "nombre": "negril",
+            "hoteles_destino":[
+              {
+                "nombre": "Grand Lido Negril Resort",
+                "imagen": "img/zonas/caribe/destinos/negril/cadenas_hoteleras/blue_diamond/grand_lido/grand_lido_negril_resort/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/grand_lido_negril_resort"
+              },
+              {
+                "nombre": "Hideaway at Royalton Negril",
+                "imagen": "img/zonas/caribe/destinos/negril/cadenas_hoteleras/blue_diamond/hideaway/hideaway_at_royalton_negril/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/hideaway_at_royalton_negril"
+              },
+              {
+                "nombre": "Royalton Negril",
+                "imagen": "img/zonas/caribe/destinos/negril/cadenas_hoteleras/blue_diamond/royalton/royalton_negril/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/royalton_negril"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino":[
+              {
+                "nombre": "CHIC Mansión",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/blue_diamond/chic/chic_mansion/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/chic_mansion"
+              },
+              {
+                "nombre": "CHIC Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/blue_diamond/chic/chic_punta_cana/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/chic_punta_cana"
+              },
+              {
+                "nombre": "Hideaway at Royalton Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/blue_diamond/hideaway/hideaway_at_royalton_punta_cana/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/hideaway_at_royalton_punta_cana"
+              },
+              {
+                "nombre": "Memories Splash",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/blue_diamond/memories/memories_splash/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/memories_splash"
+              },
+              {
+                "nombre": "Royalton Bávaro",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/blue_diamond/royalton/royalton_bavaro/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/royalton_bavaro"
+              },
+              {
+                "nombre": "Royalton Punta Cana",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/blue_diamond/royalton/royalton_punta_cana/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/royalton_punta_cana"
+              }
+            ]
+          },
+          {
+            "nombre": "santa lucía",
+            "hoteles_destino":[
+              {
+                "nombre": "Hideaway at Royalton Saint Lucia",
+                "imagen": "img/zonas/caribe/destinos/santa_lucia/cadenas_hoteleras/blue_diamond/hideaway/hideaway_at_royalton_saint_lucia/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/hideaway_at_royalton_saint_lucia"
+              },
+              {
+                "nombre": "Royalton Saint Lucia",
+                "imagen": "img/zonas/caribe/destinos/santa_lucia/cadenas_hoteleras/blue_diamond/royalton/royalton_saint_lucia/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/royalton_saint_lucia"
+              }
+            ]
+          },
+          {
+            "nombre": "cayo santa maría",
+            "hoteles_destino":[
+              {
+                "nombre": "Grand Memories Santa María",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/blue_diamond/memories/grand_memories_santa_maria/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/grand_memories_santa_maria"
+              },
+              {
+                "nombre": "Memories Paraíso",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/blue_diamond/memories/memories_paraiso/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/memories_paraiso"
+              },
+              {
+                "nombre": "Royalton Cayo Santa María",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/blue_diamond/royalton/royalton_cayo_santa_maria/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/royalton_cayo_santa_maria"
+              },
+              {
+                "nombre": "Sanctuary at Grand Memories Santa María",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/blue_diamond/memories/sanctuary_at_grand_memories_santa_maria/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/sanctuary_at_grand_memories_santa_maria"
+              },
+              {
+                "nombre": "Starfish Cayo Santa María",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/blue_diamond/starfish/starfish_cayo_santa_maria/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/starfish_cayo_santa_maria"
+              },
+              {
+                "nombre": "Starfish Tropical",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/blue_diamond/starfish/starfish_tropical/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/starfish_tropical"
+              }
+            ]
+          },
+          {
+            "nombre": "varadero",
+            "hoteles_destino":[
+              {
+                "nombre": "Grand Memories Varadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/blue_diamond/memories/grand_memories_varadero/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/grand_memories_varadero"
+              },
+              {
+                "nombre": "Memories Varadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/blue_diamond/memories/memories_varadero/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/memories_varadero"
+              },
+              {
+                "nombre": "Royalton Hicacos Vardadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/blue_diamond/royalton/royalton_hicacos_varadero/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/royalton_hicacos_varadero"
+              },
+              {
+                "nombre": "Sanctuary at Grand Memories Varadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/blue_diamond/memories/sanctuary_at_grand_memories_varadero/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/sanctuary_at_grand_memories_varadero"
+              },
+              {
+                "nombre": "Starfish Cuatro Palmas",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/blue_diamond/starfish/starfish_cuatro_palmas/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/starfish_cuatro_palmas"
+              },
+              {
+                "nombre": "Starfish Las Palmas",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/blue_diamond/starfish/starfish_las_palmas/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/starfish_las_palmas"
+              },
+              {
+                "nombre": "Starfish Varadero",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/blue_diamond/starfish/starfish_varadero/foto_principal.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_diamond/starfish_varadero"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Ocean",
+    "img": "img/hoteles/hoteles_home/hotel26.jpg",
+    "path": "hoteles/ocean",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cayo santa maría",
+            "hoteles_destino":[
+              {
+                "nombre": "Ocean Casa del Mar",
+                "imagen": "img/zonas/caribe/destinos/cayo_sta_maria/cadenas_hoteleras/ocean/oceans_casa_del_mar/principal_oceans_casa_del_mar.jpg",
+                "path": "hoteles_zonas/zona_caribe/ocean/oceans_casa_del_mar"
+              }
+            ]
+          },
+          {
+            "nombre": "la habana",
+            "hoteles_destino":[
+              {
+                "nombre": "H10 Habana Panorama",
+                "imagen": "img/zonas/caribe/destinos/la_habana/cadenas_hoteleras/ocean/h10_habana_panorama/principal_h10_habana_panorama.jpg",
+                "path": "hoteles_zonas/zona_caribe/ocean/h10_habana_panorama"
+              }
+            ]
+          },
+          {
+            "nombre": "playa del carmen",
+            "hoteles_destino":[
+              {
+                "nombre": "Ocean Maya Royale",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/ocean/oceans_maya_royale/principal_maya_royale.jpg",
+                "path": "hoteles_zonas/zona_caribe/ocean/oceans_maya_royale"
+              }
+            ]
+          },
+          {
+            "nombre": "puerto morelos",
+            "hoteles_destino":[
+              {
+                "nombre": "Ocean Coral & Turquesa",
+                "imagen": "img/zonas/caribe/destinos/puerto_morelos/cadenas_hoteleras/ocean/oceans_coral_turquesa/principal_coral_turquesa.jpg",
+                "path": "hoteles_zonas/zona_caribe/ocean/oceans_coral_turquesa"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino":[
+              {
+                "nombre": "Ocean Blue & Sand",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/ocean/oceans_blue_sand/principal_ocean_blue_sand.jpg",
+                "path": "hoteles_zonas/zona_caribe/ocean/oceans_blue_sand"
+              }
+            ]
+          },
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino":[
+              {
+                "nombre": "Ocean Riviera Paradise",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/ocean/oceans_riviera_paradise/principal_oceans_riviera_paradise.jpg",
+                "path": "hoteles_zonas/zona_caribe/ocean/oceans_riviera_paradise"
+              }
+            ]
+          },
+          {
+            "nombre": "varadero",
+            "hoteles_destino":[
+              {
+                "nombre": "Ocean Varadero El Patriarca",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/ocean/oceans_varadero_el_patriarca/principal_oceans_varadero_el_patriarca.jpg",
+                "path": "hoteles_zonas/zona_caribe/ocean/oceans_varadero_el_patriarca"
+              },
+              {
+                "nombre": "Ocean vista Azul",
+                "imagen": "img/zonas/caribe/destinos/varadero/cadenas_hoteleras/ocean/oceans_vista_azul/principal_oceans_vista_azul.jpg",
+                "path": "hoteles_zonas/zona_caribe/ocean/oceans_vista_azul"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Palladium",
+    "img": "img/hoteles/hoteles_home/hotel27.jpg",
+    "path": "hoteles/palladium",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cancún",
+            "hoteles_destino":[
+              {
+                "nombre": "Grand Palladium Costa Mujeres",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/palladium/grand_palladium_costa_mujeres/principal_grand_palladium_costa_mujeres.jpg",
+                "path": "hoteles_zonas/zona_caribe/palladium/grand_palladium_costa_mujeres"
+              },
+              {
+                "nombre": "TRS Coral Hotel",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/palladium/trs_coral_hotel/principal_trs_coral_hotel.jpg",
+                "path": "hoteles_zonas/zona_caribe/palladium/trs_coral_hotel"
+              }
+            ]
+          },
+          {
+            "nombre": "montego bay",
+            "hoteles_destino":[
+              {
+                "nombre": "Grand Palladium Lady Hamilton",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/palladium/grand_palladium_lady_hamilton/principal_grand_palladium_lady_hamilton.jpg",
+                "path": "hoteles_zonas/zona_caribe/palladium/grand_palladium_lady_hamilton"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino":[
+              {
+                "nombre": "Grand Palladium Bávaro Suites",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/palladium/grand_palladium_bavaro_suites/principal_grand_palladium_bavaro_suites.jpg",
+                "path": "hoteles_zonas/zona_caribe/palladium/grand_palladium_bavaro_suites"
+              },
+              {
+                "nombre": "TRS Turquesa Hotel",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/palladium/trs_turquesa_hotel/principal_trs_turquesa_hotel.jpg",
+                "path": "hoteles_zonas/zona_caribe/palladium/trs_turquesa_hotel"
+              }
+            ]
+          },
+          {
+            "nombre": "riviera maya",
+            "hoteles_destino":[
+              {
+                "nombre": "Grand Palladium Colonial",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/palladium/grand_palladium_colonial/principal_grand_palldium_coloniall.jpg",
+                "path": "hoteles_zonas/zona_caribe/palladium/grand_palladium_colonia"
+              },
+              {
+                "nombre": "Grand Palladium White Sands",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/palladium/grand_palladium_white_sands/principal_grand_palldium_white_sands.jpg",
+                "path": "hoteles_zonas/zona_caribe/palladium/grand_palladium_white_sands"
+              },
+              {
+                "nombre": "TRS Yucatán Hotel",
+                "imagen": "img/zonas/caribe/destinos/riviera_maya/cadenas_hoteleras/palladium/trs_yucatan_hotel/principal_trs_yucatan_hotel.jpg",
+                "path": "hoteles_zonas/zona_caribe/palladium/trs_yucatan_hotel"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Beaches",
+    "img": "img/hoteles/hoteles_home/hotel28.jpg",
+    "path": "hoteles/beaches",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "negril",
+            "hoteles_destino":[
+              {
+                "nombre": "Beaches Negril",
+                "imagen": "img/zonas/caribe/destinos/negril/cadenas_hoteleras/beaches/beaches_negril/principal_beaches_negril.jpg",
+                "path": "hoteles_zonas/zona_caribe/beaches/beaches_negril"
+              }
+            ]
+          },
+          {
+            "nombre": "ocho ríos",
+            "hoteles_destino":[
+              {
+                "nombre": "Beaches Ocho Ríos",
+                "imagen": "img/zonas/caribe/destinos/ocho_rios/cadenas_hoteleras/beaches/beaches_ocho_rios/principal_beaches_ocho_rios.jpg",
+                "path": "hoteles_zonas/zona_caribe/beaches/beaches_ocho_rios"
+              }
+            ]
+          },
+          {
+            "nombre": "turks & caicos",
+            "hoteles_destino":[
+              {
+                "nombre": "Beaches Turks & Caicos",
+                "imagen": "img/zonas/caribe/destinos/turks_caicos/cadenas_hoteleras/beaches/beaches_turks_caicos/principal_beaches_turks_caicos.jpg",
+                "path": "hoteles_zonas/zona_caribe/beaches/beaches_turks_caicos"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Sandals",
+    "img": "img/hoteles/hoteles_home/hotel29.jpg",
+    "path": "hoteles/sandals",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "barbados",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandals Barbados",
+                "imagen": "img/zonas/caribe/destinos/barbados/cadenas_hoteleras/sandals/sandals_barbados/principal_sandals_barbados.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_barbados"
+              },
+              {
+                "nombre": "Sandals Royal Barbados",
+                "imagen": "img/zonas/caribe/destinos/barbados/cadenas_hoteleras/sandals/sandals_royal_barbados/principal_sandals_royal_barbados.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_royal_barbados"
+              }
+            ]
+          },
+          {
+            "nombre": "bahamas",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandals Emerald Bay",
+                "imagen": "img/zonas/caribe/destinos/bahamas/cadenas_hoteleras/sandals/sandals_emerald_bay/principal_sandals_emerald_bay.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_emerald_bay"
+              },
+              {
+                "nombre": "Sandals Royal Bahamian",
+                "imagen": "img/zonas/caribe/destinos/bahamas/cadenas_hoteleras/sandals/sandals_royal_bahamian/principal_sandals_royal_bahamian.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_royal_bahamian"
+              }
+            ]
+          },
+          {
+            "nombre": "antigua",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandals Grande Antigua",
+                "imagen": "img/zonas/caribe/destinos/antigua/cadenas_hoteleras/sandals/sandals_grande_antigua/principal_sandals_grande_antigua.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_grande_antigua"
+              }
+            ]
+          },
+          {
+            "nombre": "santa lucía",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandals Grande St Lucía",
+                "imagen": "img/zonas/caribe/destinos/santa_lucia/cadenas_hoteleras/sandals/sandals_grande_st_lucia/principal_sandals_grande_st_lucia.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_grande_st_lucia"
+              },
+              {
+                "nombre": "Sandals Halcyon",
+                "imagen": "img/zonas/caribe/destinos/santa_lucia/cadenas_hoteleras/sandals/sandals_halcyon/principal_sandals_halcyon.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_halcyon"
+              },
+              {
+                "nombre": "Sandals Regency La Toc",
+                "imagen": "img/zonas/caribe/destinos/santa_lucia/cadenas_hoteleras/sandals/sandals_regency_la_toc/principal_sandals_regency_la_toc.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_regency_la_toc"
+              }
+            ]
+          },
+          {
+            "nombre": "montego bay",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandals Inn",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/sandals/sandals_inn/principal_sandals_inn.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_inn_montego_bay"
+              },
+              {
+                "nombre": "Sandals Montego Bay",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/sandals/sandals_montego_bay/principal_sandals_montego_bay.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_montego_bay"
+              },
+              {
+                "nombre": "Sandals Royal Caribbean",
+                "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/sandals/sandals_royal_caribbean/principal_sandals_royal_caribbean.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_royal_caribbean"
+              }
+            ]
+          },
+          {
+            "nombre": "grenada",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandals La Source",
+                "imagen": "img/zonas/caribe/destinos/grenada/cadenas_hoteleras/sandals/sandals_lasource/principal_sandals_lasource.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_la_source"
+              }
+            ]
+          },
+          {
+            "nombre": "negril",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandals Negril",
+                "imagen": "img/zonas/caribe/destinos/negril/cadenas_hoteleras/sandals/sandals_negril/principal_sandals_negril.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_negril"
+              }
+            ]
+          },
+          {
+            "nombre": "ocho ríos",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandals Ochi",
+                "imagen": "img/zonas/caribe/destinos/ocho_rios/cadenas_hoteleras/sandals/sandals_ochi/principal_sandals_ochi.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_ochi"
+              },
+              {
+                "nombre": "Sandals Royal Plantation",
+                "imagen": "img/zonas/caribe/destinos/ocho_rios/cadenas_hoteleras/sandals/sandals_royal_plantation/principal_sandals_royal_plantation.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_royal_plantation"
+              }
+            ]
+          },
+          {
+            "nombre": "whitehouse",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandals South Coast",
+                "imagen": "img/zonas/caribe/destinos/whitehouse/cadenas_hoteleras/sandals/sandals_south_coast/principal_sandals_south_coast.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandals/sandals_south_coast"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Panamericana",
+    "img": "img/hoteles/hoteles_home/hotel43.jpg",
+    "path": "hoteles/panamericana",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cartagena de indias",
+            "hoteles_destino":[
+              {
+                "nombre": "Hotel Capilla del Mar",
+                "imagen": "img/zonas/caribe/destinos/cartagena_indias/cadenas_hoteleras/panamericana/capilla_del_mar/principal_capilla_del_mar.jpg",
+                "path": "hoteles_zonas/zona_caribe/panamericana/capilla_del_mar"
+              },
+              {
+                "nombre": "Hotel Las Américas Casa de Playa",
+                "imagen": "img/zonas/caribe/destinos/cartagena_indias/cadenas_hoteleras/panamericana/las_americas_casa_de_playa/principal_las_americas_casa_de_playa.jpg",
+                "path": "hoteles_zonas/zona_caribe/panamericana/las_americas_casa_de_playa"
+              },
+              {
+                "nombre": "Hotel Las Américas Torre del Mar",
+                "imagen": "img/zonas/caribe/destinos/cartagena_indias/cadenas_hoteleras/panamericana/torre_del_mar/principal_torre_del_mar.jpg",
+                "path": "hoteles_zonas/zona_caribe/panamericana/torre_del_mar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Blue Travel",
+    "img": "img/hoteles/hoteles_home/hotel44.jpg",
+    "path": "hoteles/blue_travel",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "puerto plata",
+            "hoteles_destino":[
+              {
+                "nombre": "Puerto Plata Rafting",
+                "imagen": "img/zonas/caribe/destinos/puerto_plata/cadenas_hoteleras/blue_travel/puerto_plata_rafting/principal_puerto_plata_rafting.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_travel/puerto_plata_rafting"
+              }
+            ]
+          },
+          {
+            "nombre": "punta cana",
+            "hoteles_destino":[
+              {
+                "nombre": "Saona Palmilla",
+                "imagen": "img/zonas/caribe/destinos/punta_cana/cadenas_hoteleras/blue_travel/saona_palmilla/principal_saona_palmilla.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_travel/saona_palmilla"
+              }
+            ]
+          },
+          {
+            "nombre": "samaná",
+            "hoteles_destino":[
+              {
+                "nombre": "Samaná Salto del Limón",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/blue_travel/samana_salto_del_limon/principal_samana_salto_del_limon.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_travel/samana_salto_del_limon"
+              }
+            ]
+          },
+          {
+            "nombre": "santo domingo",
+            "hoteles_destino":[
+              {
+                "nombre": "Santo Domingo City Tour",
+                "imagen": "img/zonas/caribe/destinos/santo_domingo/cadenas_hoteleras/blue_travel/santo_domingo_city_tour/principal_santo_domingo_city_tour.jpg",
+                "path": "hoteles_zonas/zona_caribe/blue_travel/santo_domingo_city_tour"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Aadesa",
+    "img": "img/hoteles/hoteles_home/hotel68.jpg",
+    "path": "hoteles/aadesa",
+    "zonas": [
+      {
+        "nombre": "sudamérica",
+        "path": "sudamerica.md",
+        "destinos": [
+          {
+            "nombre": "buenos aires",
+            "hoteles_destino":[
+              {
+                "nombre": "Aadesa",
+                "imagen": "img/zonas/sudamerica/destinos/buenos_aires/cadenas_hoteleras/aadesa/principal_aadesa.jpg",
+                "path": "hoteles_zonas/zona_sudamerica/aadesa/aadesa"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Sandos",
+    "img": "img/hoteles/hoteles_home/hotel58.jpg",
+    "path": "hoteles/sandos",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "cancún",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandos Cancún",
+                "imagen": "img/zonas/caribe/destinos/cancun/cadenas_hoteleras/sandos/sandos_cancun/principal_sandos_cancun.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandos/sandos_cancun"
+              }
+            ]
+          },
+          {
+            "nombre": "los cabos",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandos Finisterra",
+                "imagen": "img/zonas/caribe/destinos/los_cabos/cadenas_hoteleras/sandos/sandos_finisterra/principal_sandos_finisterra.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandos/sandos_finisterra"
+              }
+            ]
+          },
+          {
+            "nombre": "playa del carmen",
+            "hoteles_destino":[
+              {
+                "nombre": "Sandos Caracol",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/sandos/sandos_caracol/principal_sandos_caracol.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandos/sandos_caracol"
+              },
+              {
+                "nombre": "Sandos Playacar",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/sandos/sandos_playacar/principal_sandos_playacar.jpg",
+                "path": "hoteles_zonas/zona_caribe/sandos/sandos_playacar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Viajes Pacífico",
+    "img": "img/hoteles/hoteles_home/hotel59.jpg",
+    "path": "hoteles/viajes_pacifico",
+    "zonas": [
+      {
+        "nombre": "sudamérica",
+        "path": "sudamerica.md",
+        "destinos": [
+          {
+            "nombre": "cusco",
+            "hoteles_destino":[
+              {
+                "nombre": "Casa Andina Premium Valle Sagrado Hotel & Villas",
+                "imagen": "img/zonas/sudamerica/destinos/cusco/cadenas_hoteleras/casa_andina/casa_andina_premium_valle_sagrado/foto_principal_casa_andina_valle_sagrado.jpg",
+                "path": "hoteles_zonas/zona_sudamerica/casa_andina/casa_andina_valle_sagrado"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Journeys",
+    "img": "img/hoteles/hoteles_home/hotel66.jpg",
+    "path": "hoteles/journeys",
+    "zonas": [
+      {
+        "nombre": "centroamérica",
+        "path": "centroamerica.md",
+        "destinos": [
+          {
+            "nombre": "costa rica",
+            "hoteles_destino":[
+              {
+                "nombre": "Journeys",
+                "imagen": "img/zonas/centroamerica/destinos/costa_rica/cadenas_hoteleras/journeys/journeys/principal_journeys.jpg",
+                "path": "hoteles_zonas/zona_centroamerica/journeys/journeys"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Viva",
+    "img": "img/hoteles/hoteles_home/hotel10.jpg",
+    "path": "hoteles/viva",
+    "zonas": [
+      {
+        "nombre": "caribe",
+        "path": "caribe.md",
+        "destinos": [
+          {
+            "nombre": "bahamas",
+            "hoteles_destino":[
+              {
+                "nombre": "Viva Wyndham Fortuna Beach",
+                "imagen": "img/zonas/caribe/destinos/bahamas/cadenas_hoteleras/viva/viva_fortune_beach/principal_viva_fortune_beach.jpg",
+                "path": "hoteles_zonas/zona_caribe/viva/viva_wyndham_fortune_beach"
+              }
+            ]
+          },
+          {
+            "nombre": "bayahibe",
+            "hoteles_destino":[
+              {
+                "nombre": "Viva Wyndham Dominicus Beach",
+                "imagen": "img/zonas/caribe/destinos/bayahibe/cadenas_hoteleras/viva/viva_domincus_beach/principal_viva_dominicus_beach.jpg",
+                "path": "hoteles_zonas/zona_caribe/viva/viva_wyndham_dominicus_beach"
+              },
+              {
+                "nombre": "Viva Wyndham Dominicus Palace",
+                "imagen": "img/zonas/caribe/destinos/bayahibe/cadenas_hoteleras/viva/viva_dominicus_palace/principal_viva_dominicus_palace.jpg",
+                "path": "hoteles_zonas/zona_caribe/viva/viva_wyndham_dominicus_palace"
+              }
+            ]
+          },
+          {
+            "nombre": "cabarete",
+            "hoteles_destino":[
+              {
+                "nombre": "Viva Wyndham Tangerine",
+                "imagen": "img/zonas/caribe/destinos/cabarete/cadenas_hoteleras/viva/viva_targerine/principal_viva_targerine.jpg",
+                "path": "hoteles_zonas/zona_caribe/viva/viva_wyndham_targerine"
+              }
+            ]
+          },
+          {
+            "nombre": "playa del carmen",
+            "hoteles_destino":[
+              {
+                "nombre": "Viva Wyndham Azteca",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/viva/viva_azteca/principal_viva_azteca.jpg",
+                "path": "hoteles_zonas/zona_caribe/viva/viva_wyndham_azteca"
+              },
+              {
+                "nombre": "Viva Wyndham Maya",
+                "imagen": "img/zonas/caribe/destinos/playa_del_carmen/cadenas_hoteleras/viva/viva_maya/principal_viva_maya.jpg",
+                "path": "hoteles_zonas/zona_caribe/viva/viva_wyndham_maya"
+              }
+            ]
+          },
+          {
+            "nombre": "puerto plata",
+            "hoteles_destino":[
+              {
+                "nombre": "Viva Wyndham V Heavens",
+                "imagen": "img/zonas/caribe/destinos/puerto_plata/cadenas_hoteleras/viva/viva_heavens/principal_viva_heavens.jpg",
+                "path": "hoteles_zonas/zona_caribe/viva/viva_wyndham_v_heavens"
+              }
+            ]
+          },
+          {
+            "nombre": "samaná",
+            "hoteles_destino":[
+              {
+                "nombre": "Viva Wyndham V Samaná",
+                "imagen": "img/zonas/caribe/destinos/samana/cadenas_hoteleras/viva/viva_samana/principal_viva_samana.jpg",
+                "path": "hoteles_zonas/zona_caribe/viva/viva_wyndham_v_samana"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Viajes Arcoiris",
+    "img": "img/hoteles/hoteles_home/hotel71.jpg",
+    "path": "hoteles/viajes_arcoiris",
+    "zonas": [
+      {
+        "nombre": "centroamérica",
+        "path": "centroamerica.md",
+        "destinos": [
+          {
+            "nombre": "panamá",
+            "hoteles_destino":[
+              {
+                "nombre": "Viajes Arcoiris",
+                "imagen": "img/zonas/centroamerica/destinos/panama/cadenas_hoteleras/viajes_arcoiris/viajes_arcoiris/principal_viajes_arcoiris.jpg",
+                "path": "hoteles_zonas/zona_centroamerica/viajes_arcoiris/viajes_arcoiris"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Gol",
+    "img": "img/hoteles/hoteles_home/hotel30.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Prom Perú",
+    "img": "img/hoteles/hoteles_home/hotel31.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Brasil Sensacional",
+    "img": "img/hoteles/hoteles_home/hotel32.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Kissimmee",
+    "img": "img/hoteles/hoteles_home/hotel33.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Las Vegas",
+    "img": "img/hoteles/hoteles_home/hotel34.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Liberty",
+    "img": "img/hoteles/hoteles_home/hotel35.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Descubra Brasil",
+    "img": "img/hoteles/hoteles_home/hotel36.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Visit USA",
+    "img": "img/hoteles/hoteles_home/hotel37.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Czech Republic",
+    "img": "img/hoteles/hoteles_home/hotel38.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Mapa Plus",
+    "img": "img/hoteles/hoteles_home/hotel39.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "NYC",
+    "img": "img/hoteles/hoteles_home/hotel40.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Sato Tours",
+    "img": "img/hoteles/hoteles_home/hotel41.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Visit Orlando",
+    "img": "img/hoteles/hoteles_home/hotel42.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Procolombia",
+    "img": "img/hoteles/hoteles_home/hotel45.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "South África",
+    "img": "img/hoteles/hoteles_home/hotel46.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Aerolíneas Argentinas",
+    "img": "img/hoteles/hoteles_home/hotel47.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Aeroméxico",
+    "img": "img/hoteles/hoteles_home/hotel48.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Air Canadá",
+    "img": "img/hoteles/hoteles_home/hotel49.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Copa Airlines",
+    "img": "img/hoteles/hoteles_home/hotel50.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "South African Airways",
+    "img": "img/hoteles/hoteles_home/hotel51.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "United Airlines",
+    "img": "img/hoteles/hoteles_home/hotel52.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Delta Airlines",
+    "img": "img/hoteles/hoteles_home/hotel53.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Alitalia",
+    "img": "img/hoteles/hoteles_home/hotel54.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Avianca",
+    "img": "img/hoteles/hoteles_home/hotel55.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Polska",
+    "img": "img/hoteles/hoteles_home/hotel57.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Avis",
+    "img": "img/hoteles/hoteles_home/hotel60.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Assist Card",
+    "img": "img/hoteles/hoteles_home/hotel61.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Oficina de Turismo República Dominicana",
+    "img": "img/hoteles/hoteles_home/hotel67.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Oficina de Turismo Cuba",
+    "img": "img/hoteles/hoteles_home/hotel69.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Aruba",
+    "img": "img/hoteles/hoteles_home/hotel70.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "RIU",
+    "img": "img/hoteles/hoteles_home/hotel72.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nombre": "Cynsa",
+    "img": "img/hoteles/hoteles_home/hotel73.jpg",
+    "path": "",
+    "zonas": [
+      {
+        "nombre": "",
+        "path": "",
+        "destinos": [
+          {
+            "nombre": "",
+            "hoteles_destino":[
+              {
+                "nombre": "",
+                "imagen": "",
+                "path": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

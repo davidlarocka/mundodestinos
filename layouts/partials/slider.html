@@ -1,0 +1,34 @@
+<!-- <section>
+  <h1>SLIDER</h1>
+  <h2>{{ .Title }}</h2>
+  <div class="slider home">
+    <ul class="slides">
+      {{ $ruta_img_slider := .Params.ruta_img_slider }}
+      {{ range .Params.img_slider }}
+      <li>
+        <!NOTE: añadir links con la direccion al proyecto -->
+        <!-- <a href="#">
+          <img src="{{ $.Site.BaseURL}}{{ $ruta_img_slider }}{{ . }}" alt="">
+        </a>
+      </li>
+      {{ end }}
+    </ul> -->
+    <!-- <button id="btnSliderNext" onclick="nextSlider(this.id)" class="next btn-flat"><i class="material-icons">arrow_forward</i></button>
+    <button id="btnSliderPrev" onclick="prevSlider(this.id)" class="prev btn-flat"><i class="material-icons">arrow_back</i></button> -->
+  <!-- </div>
+</section> -->
+
+<section class="col s12">
+  <div class="slider">
+    <ul class="slides">
+      {{ $ruta_img_slider := .Params.ruta_img_slider }}
+      {{ range .Params.img_slider }}
+      <li>
+        <img src="{{ $.Site.BaseURL}}{{ $ruta_img_slider }}{{ . }}" alt="">
+      </li>
+      {{ end }}
+    </ul>
+    <button id="btnSliderNext" onclick="nextSlider(this.id)" class="next btn-flat"><i class="material-icons">keyboard_arrow_right</i></button>
+    <button id="btnSliderPrev" onclick="prevSlider(this.id)" class="prev btn-flat"><i class="material-icons">keyboard_arrow_left</i></button>
+  </div>
+</section>

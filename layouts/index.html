@@ -1,0 +1,130 @@
+{{ partial "header.html" . }}
+
+<body>
+  <main class="gridWithAside container">
+   {{ partial "logo.html" . }}
+    <section class="mainContent">
+      <!-- NOTE: Zonas sobre las cuales iterar -->
+      <div class="flex zonas">
+        {{ range where $.Site.Pages "Type" "destinos" }}
+        <!-- NOTE: solucion sucia (burda) para ver el tema de los colores al poner los acentos en los titulos -->
+          {{ if eq .Title "África" }}
+            <figure class="effect-honey {{ print "Africa" | urlize }}">
+              <ul>
+                <li>
+                  <img src="{{ $.Site.BaseURL }}{{ .Params.img }}" alt=""/>
+                  <figcaption>
+                    <h2>{{ .Title }} <i class="material-icons">keyboard_arrow_right</i></h2>
+                    <a href="{{ .Params.url_zona }}">View more</a>
+                  </figcaption>
+                </li>
+              </ul>
+            </figure>
+          {{ else if eq .Title "Norteamérica" }}
+            <figure class="effect-honey {{ print "Norteamerica" | urlize }}">
+              <ul>
+                <li>
+                  <img src="{{ $.Site.BaseURL }}{{ .Params.img }}" alt=""/>
+                  <figcaption>
+                    <h2>{{ .Title }} <i class="material-icons">keyboard_arrow_right</i></h2>
+                    <a href="{{ .Params.url_zona }}">View more</a>
+                  </figcaption>
+                </li>
+              </ul>
+            </figure>
+          {{ else if eq .Title "Sudamérica" }}
+            <figure class="effect-honey {{ print "Sudamerica" | urlize }}">
+              <ul>
+                <li>
+                  <img src="{{ $.Site.BaseURL }}{{ .Params.img }}" alt=""/>
+                  <figcaption>
+                    <h2>{{ .Title }} <i class="material-icons">keyboard_arrow_right</i></h2>
+                    <a href="{{ .Params.url_zona }}">View more</a>
+                  </figcaption>
+                </li>
+              </ul>
+            </figure>
+          {{ else if eq .Title "Pacífico Sur" }}
+            <figure class="effect-honey {{ print "Pacifico Sur" | urlize }}">
+              <ul>
+                <li>
+                  <img src="{{ $.Site.BaseURL }}{{ .Params.img }}" alt=""/>
+                  <figcaption>
+                    <h2>{{ .Title }} <i class="material-icons">keyboard_arrow_right</i></h2>
+                    <a href="{{ .Params.url_zona }}">View more</a>
+                  </figcaption>
+                </li>
+              </ul>
+            </figure>
+          {{ else if eq .Title "Centroamérica" }}
+            <figure class="effect-honey {{ print "Centroamerica" | urlize }}">
+              <ul>
+                <li>
+                  <img src="{{ $.Site.BaseURL }}{{ .Params.img }}" alt=""/>
+                  <figcaption>
+                    <h2>{{ .Title }} <i class="material-icons">keyboard_arrow_right</i></h2>
+                    <a href="{{ .Params.url_zona }}">View more</a>
+                  </figcaption>
+                </li>
+              </ul>
+            </figure>
+          {{ else }}
+            <figure class="effect-honey {{ print .Title | urlize }}">
+              <ul>
+                <li>
+                  <img src="{{ $.Site.BaseURL }}{{ .Params.img }}" alt=""/>
+                  <figcaption>
+                    <h2>{{ .Title }} <i class="material-icons">keyboard_arrow_right</i></h2>
+                    <a href="{{ .Params.url_zona }}">View more</a>
+                  </figcaption>
+                </li>
+              </ul>
+            </figure>
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+    <aside class="sidebar">
+      <div class="hoteles">
+        <h2>Nuestros Partners</h2>
+
+        <!-- CAROUSEL WITH LOGOS -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:800px;">
+          <!-- Indicators -->
+          
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="flex">
+                {{ $.Scratch.Set "count" 0 }}
+                {{ range .Site.Data.hoteles.hoteles_data }}
+                  {{ $key := $.Scratch.Get "count" }}
+                  {{ $.Scratch.Add "count" 1 }}
+                  {{ if eq $key 13 }}
+                    <a href="{{ .path }}">
+                      <img class="responsive-img" src="{{ $.Site.BaseURL }}{{ .img }}" alt="">
+                    </a>
+                      {{ $.Scratch.Set "count" 0 }}
+              </div>
+            </div>
+            <div class="item">
+              <div class="flex">
+                {{ else }}
+                  <a href="{{ .path }}">
+                    <img class="responsive-img" src="{{ $.Site.BaseURL }}{{ .img }}" alt="">
+                  </a>
+                {{ end }}
+              {{ end }}
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    {{ partial "scripts.html" . }}
+  </body>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,114 @@
+{{ partial "header.html" . }}
+
+<body>
+
+  <main class="gridWithAside container">
+    {{ partial "logo.html" . }}
+
+    <section class="mainContent">
+      <nav>
+        <div class="nav-wrapper">
+          <div class="col s12">
+            <a href="#!" class="breadcrumb">{{ .Title }}</a>
+          </div>
+        </div>
+      </nav>
+      <div class="flex">
+        <!-- NOTE: carga de destinos por zona -->
+        <!-- NOTE: obtenemos el titulo de la pagina para llamar a estos contenidos -->
+        {{ $data :=  .Site.GetPage "page" (string .File.Path) }}
+        <!-- NOTE: carga solo los contenidos que esten en el subdirectorio de destinos -->
+        {{ range .Site.Pages }}
+          {{ if eq .Params.type $data.Params.tipo_destino }}
+            {{ partial "destinos.html" . }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+      <!--NOTE: Hoteles -->
+    <aside class="sidebar">
+        <h2>Nuestros Partners</h2>
+        <div class="hoteles">
+          <!-- CAROUSEL WITH LOGOS -->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:800px;">
+            <!-- Indicators -->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active" id="item1">
+                <div class="flex">
+                  {{ $.Scratch.Set "count" 0 }}
+                  {{ $.Scratch.Set "countItems" 1 }}
+                  {{ $titulo := .Title }}
+
+                  {{ range where .Site.Pages "Section" "hoteles" }}
+                    {{ $es_logo := .Params.es_logo }}
+                    {{ $zonas := .Params.zonas_cadena }}
+                    {{ $nombre_cadena := .Title }}
+                    {{ $ruta := .Permalink }}
+                    {{ $imagen := .Params.img }}
+                    {{ range $zonas }}
+
+                    {{ $key := $.Scratch.Get "count" }}
+
+                    {{ if eq $key 15}}
+                      {{ if and (eq . $titulo) ($es_logo ) }}
+                          <a>
+                            <img class="responsive-img" src="{{ $.Site.BaseURL }}{{ $imagen }}" alt="">
+                          </a>
+                      {{ else if eq . $titulo }}
+                          <a href="{{ $ruta }}">
+                            <img class="responsive-img" src="{{ $.Site.BaseURL }}{{ $imagen }}" alt="">
+                          </a>
+                      {{ end }}
+                        </div>
+                      </div>
+                      {{ $.Scratch.Add "countItems" 1 }}
+                      {{ $totalItems := $.Scratch.Get "countItems" }}
+                      <div class="item" id="item{{ $totalItems}}">
+                        <div class="flex">
+                        {{ $.Scratch.Set "count" 0 }}
+                    {{ else }}
+                      {{ if and (eq . $titulo) ($es_logo ) }}
+                        <a>
+                          &nbsp;<img class="responsive-img" src="{{ $.Site.BaseURL }}{{ $imagen }}" alt="">
+                        </a>
+                        {{ $.Scratch.Add "count" 1 }}
+                      {{ else if eq . $titulo }}
+                        <a href="{{ $ruta }}">
+                          <img class="responsive-img" src="{{ $.Site.BaseURL }}{{ $imagen }}" alt="">
+                        </a>
+                        {{ $.Scratch.Add "count" 1 }}
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+<script type="text/javascript" >
+  $( ".item" ).each(function( index ) {
+    var myClass = $( this ).attr('id');
+    //alert( $( "#" + myClass + " > div > a"  ).length );
+
+    if($( "#" + myClass + " > div > a"  ).length == 0 ){
+      $( "#" + myClass).remove();
+    }
+
+  });
+
+</script>
+
+  {{ partial "scripts.html" . }}
+
+</body>
+
+{{ partial "footer.html" . }}

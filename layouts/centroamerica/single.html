@@ -1,0 +1,76 @@
+{{ partial "header.html" . }}
+
+
+<main class="container">
+{{ partial "logo.html" . }}
+  <div class="mainContent">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="col s12">
+          <a href="../../../../{{ .Params.url_zona }}" class="breadcrumb">{{ .Params.zona }}</a>
+          <a href="" class="breadcrumb">{{ .Title }}</a>
+        </div>
+      </div>
+    </nav>
+    {{ partial "slider.html" . }}
+    <section class="col s12">
+      <div class="hoteles-partners">
+        <h2 class="full">Nuestros Partners</h2>
+        <div class="flex">
+          <!-- {{ range .Site.Data.hoteles }}
+            <a href="{{ $.Site.BaseURL }}"><img class="responsive-img" src="{{ $.Site.BaseURL }}{{ . }}" alt=""></a>
+          {{ end }} -->
+          {{ $id_ruta_scroll := .Params.id_scroll_cadena }}
+          {{ $isset_tiene_logo := isset .Params "tiene_logo" }}
+          {{ $tiene_logo := .Params.tiene_logo }}
+          {{ if (isset .Params "hotel_pertenece")}}
+            {{ range .Params.hotel_pertenece }}
+              {{ $hotel := . }}
+              {{ range where $.Site.Pages "Type" "hoteles" }}
+                {{ if and (eq .Title $hotel) }}
+                  <a href="{{ .RelPermalink }}#{{ $id_ruta_scroll }}">
+                    <img class="responsive-img" src="{{ $.Site.BaseURL }}{{ .Params.img }}" alt=""></a>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+           <!-- Si el parametro esta seteado significa que tiene logos, entonces cargar imagenes de logos sin url -->
+           {{ if and $isset_tiene_logo $tiene_logo }}
+           {{ $logos_collec := .Params.logos_collec }}
+           {{ range $logos_collec }}
+             {{ $logo := . }}
+             {{ range where $.Site.Pages "Type" "hoteles" }}
+               {{ if and (eq .Title $logo) (eq $isset_tiene_logo true) }}
+                 <a href="">
+                   <img class="responsive-img" src="{{ $.Site.BaseURL }}{{ .Params.img }}" alt="">
+                 </a>
+               {{ end }}
+             {{ end }}
+           {{ end }}
+         {{ end }}
+        </div>
+      </div>
+    </section>
+    <br>
+    <section class="row">
+      <div class="col m8 offset-m2 s12">
+        <p class="cta">
+          {{ .Params.bajada_content }}
+        </p>
+        {{ .Content }}
+      </div>
+    </section>
+    <div class="flex">
+      {{ $ruta_otras_img := .Params.ruta_otras_img }}
+      {{ range .Params.otras_img }}
+        <span class="col4">
+          <a href="{{ $.Site.BaseURL }}{{ $ruta_otras_img }}{{ . }}" data-lightbox="centroamerica">
+            <img src="{{ $.Site.BaseURL }}{{ $ruta_otras_img }}{{ . }}" alt="" class="responsive-img">
+          </a>
+        </span>
+      {{ end }}
+    </div>
+  </div>
+</main>
+{{ partial "scripts.html" . }}
+{{ partial "footer.html" . }}
