@@ -29,6 +29,15 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    var es_ie = navigator.userAgent.indexOf("MSIE") > -1 ;
+    var url = "{{ $.Site.BaseURL }}";
+    
+      if(es_ie == true || (!!window.MSInputMethodContext && !!document.documentMode) == true){
+        var hojaEstilos = "<link rel='stylesheet' href= '" + url + "css/explorer.css' >"
+        $('head').append(hojaEstilos);
+    }
+  </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Ads Mundo Destinos</title>
 

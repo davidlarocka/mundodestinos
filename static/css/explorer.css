@@ -1,0 +1,30 @@
+main.gridWithAside.container{
+	display: -ms-grid;
+	-ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	-ms-grid-rows: 8em;
+}
+
+main.gridWithAside.container header{
+	display: ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 8;
+	-ms-grid-row: 1;
+}
+main.gridWithAside.container .mainContent{
+	display: ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 8;
+	-ms-grid-row: 2;
+}
+
+main.gridWithAside.container aside.sidebar{
+	display: -ms-grid;
+	-ms-grid-column: 9;
+	-ms-grid-column-span: 4;
+	-ms-grid-row: 1;
+	margin-left: 2em;
+}
+
+.sidebar .hoteles a{
+	flex-basis: 39%;
+}
