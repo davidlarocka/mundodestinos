@@ -1,3 +1,4 @@
+
 <footer>
   <!-- Btn back to top: solo visible para mobile -->
   <div class="fixed-action-btn show-on-medium-and-down">
@@ -281,3 +282,12 @@
 
 
 </script>
+<script>
+  var es_ie = navigator.userAgent.indexOf("MSIE") > -1 ;
+  var url = "{{ $.Site.BaseURL }}";
+    if(es_ie == true || (!!window.MSInputMethodContext && !!document.documentMode) == true){
+      $('#explorer').css('display', 'block');
+    };
+    </script>
+</body>
+</html>

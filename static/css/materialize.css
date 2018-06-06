@@ -7311,6 +7311,16 @@ footer {
   background: #ececec;
   border-radius: 6px; }
 
+#explorer {
+  background-color: #1EB3AC;
+  padding: 1em;
+  display: none; }
+  #explorer h2 {
+    color: #FFF; }
+  #explorer #navegadores a img {
+    width: 5em;
+    max-height: 5em; }
+
 /*-------------------------------------
 
               MOBILE

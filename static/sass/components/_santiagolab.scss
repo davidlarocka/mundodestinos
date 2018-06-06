@@ -633,6 +633,23 @@ footer {
   border-radius: 6px;
 }
 
+#explorer{
+  background-color: #1EB3AC;
+  padding: 1em;
+  display: none;
+  h2{
+    color: #FFF;
+  }
+  #navegadores{
+    a{
+      img{
+        width: 5em;
+        max-height: 5em;
+      }
+    }
+  }
+}
+
 /*-------------------------------------
 
               MOBILE
