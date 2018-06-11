@@ -28,3 +28,19 @@ main.gridWithAside.container aside.sidebar{
 .sidebar .hoteles a{
 	flex-basis: 39%;
 }
+
+/*estilos a container de Destinos*/
+
+.gridWithAside.container.destinos aside.sidebar .hoteles{
+	display: -ms-grid;
+	-ms-grid-row: 2;
+}
+
+
+/*Estilos a botón de aviso en explorer*/
+
+#closeIcon{
+	color: #FFF;
+	float: right;
+	font-size: 2em;
+}

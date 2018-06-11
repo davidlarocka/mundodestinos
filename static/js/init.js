@@ -23,11 +23,11 @@ console.log(window.location.hash);
 $('#destinos').addClass(window.location.hash);
 let destinos = document.querySelectorAll('#destino');
 console.log(destinos);
-for(let i = 0; i < destinos.length; i++){
+for (var i = 0; i < destinos.length; i++) {
   // console.log(destinos[i].className);
-  if(destinos[i].className === `destino-${window.location.hash.replace('#', '')}`){
+  if (destinos[i].className === 'destino-' + window.location.hash.replace('#', '')) {
     console.log(destinos[i].className);
-    $(`.${destinos[i].className}`).addClass('destinoBack');
+    $('.' + destinos[i].className).addClass('destinoBack');
     break;
   }
 }
