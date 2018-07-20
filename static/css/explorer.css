@@ -31,8 +31,222 @@ main.gridWithAside.container aside.sidebar{
 	margin-left: 2em;
 }
 
+main.gridWithAside.pagesAside.container{
+	display: -ms-grid;
+	-ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	-ms-grid-rows: 8em;
+	margin-left: 12%;
+}
+
+main.gridWithAside.pagesAside.container header{
+	display: ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 12;
+	-ms-grid-row: 1;
+}
+
+main.gridWithAside.pagesAside.container nav{
+	display: -ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 12;
+	-ms-grid-row: 2;
+	margin-bottom: 4.3em;
+}
+
+
+main.gridWithAside.pagesAside.container .mainContent{
+	display: -ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 8;
+	-ms-grid-row: 3;
+	margin-left: 0;
+	padding-top: 0;
+}
+
+main.gridWithAside.pagesAside.container .sidebar{
+	display: -ms-grid;
+	-ms-grid-column: 10;
+	-ms-grid-column-span: 3;
+	-ms-grid-row: 3;
+	margin-left: 2em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide{
+	display: -ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 3;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.fotosSide h2{
+	height: 1em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.fotosSide .row{
+	width: 23.5em;
+	margin-top: 3em;
+	margin-left: 1em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.fotosSide .row figure a img{
+	max-width: 100%!important;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.fotosSide .row .col.m6{
+	width: 45%;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.videoSide{
+	-ms-grid-row: 2;
+	margin-left: 1.7em;
+}
+main.gridWithAside.pagesAside.container .sidebar .itemSide.videoSide h2{
+	height: 1em;
+	width: 11.6em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.videoSide .row{
+	margin-top: 3em;
+}
+
+main.gridWithAside.pagesAside .sidebar .itemSide.mapaSide{
+	-ms-grid-row: 3;
+}
+
+main.gridWithAside.pagesAside .sidebar .itemSide.mapaSide h2{
+	height: 1em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.mapaSide .row{
+	margin-top: 3em;
+	margin-left: 1em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.descargarSide{
+	-ms-grid-row: 4;
+	margin-left: 25%
+}main.gridWithAside.pagesAside.container{
+	display: -ms-grid;
+	-ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	-ms-grid-rows: 8em;
+	margin-left: 12%;
+}
+
+main.gridWithAside.pagesAside.container header{
+	display: ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 12;
+	-ms-grid-row: 1;
+}
+
+main.gridWithAside.pagesAside.container nav{
+	display: -ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 12;
+	-ms-grid-row: 2;
+	margin-bottom: 4.3em;
+}
+
+
+main.gridWithAside.pagesAside.container .mainContent{
+	display: -ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 8;
+	-ms-grid-row: 3;
+	margin-left: 0;
+	padding-top: 0;
+}
+
+main.gridWithAside.pagesAside.container aside.sidebar{
+	display: -ms-grid;
+	-ms-grid-column: 10;
+	-ms-grid-column-span: 3;
+	-ms-grid-row: 3;
+	margin-left: 2em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide{
+	display: -ms-grid;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 3;
+	margin: 0;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.fotosSide h2{
+	height: 1em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.fotosSide .row{
+	width: 23.5em;
+	margin-top: 4em;
+	margin-left: 1em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.fotosSide .row figure a img{
+	max-width: 100%!important;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.fotosSide .row .col.m6{
+	width: 45%;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.videoSide{
+	-ms-grid-row: 2;
+	margin-left: 0em;
+}
+main.gridWithAside.pagesAside.container .sidebar .itemSide.videoSide h2{
+	height: 1em;
+	width: 11.6em;
+	margin-left: 1em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.videoSide .row{
+	margin-top: 4em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.videoSide .row figure{
+	width: 90%;
+}
+
+main.gridWithAside.pagesAside.container.sidebar .itemSide.mapaSide{
+	-ms-grid-row: 3;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.mapaSide h2{
+	height: 1em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.mapaSide .row{
+	margin-top: 4em;
+	margin-left: 1em;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.mapaSide .row figure{
+	width: 90%;
+}
+
+main.gridWithAside.pagesAside.container .sidebar .itemSide.descargarSide{
+	-ms-grid-row: 4;
+	margin-left: 25%
+}
+
+main.gridWithAside.pagesAside.container .mainContent div img{
+	max-width: 77%;
+}
+
+
 .sidebar .hoteles a{
 	flex-basis: 39%;
+}
+
+
+/*arreglo carousel de home*/
+
+.carouselHomeItem:last-child{
+	width: 28em!important;
+}
+
+.itemCarouselDestinos{
+	width: 28em;
 }
 
 /*estilos a container de Destinos*/
@@ -161,7 +375,6 @@ main.gridWithAside.pagesAside .sidebar .itemSide.descargarSide{
 main.gridWithAside.pagesAside.container .mainContent div img{
 	max-width: 77%;
 }
-
 
 
 @media (max-width: 1325px) {

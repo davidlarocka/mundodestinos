@@ -35,7 +35,7 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
-              <div class="item active" id="item1">
+              <div class="item active itemCarouselDestinos" id="item1">
                 <div class="flex">
                   {{ $.Scratch.Set "count" 0 }}
                   {{ $.Scratch.Set "countItems" 1 }}
@@ -65,7 +65,7 @@
                       </div>
                       {{ $.Scratch.Add "countItems" 1 }}
                       {{ $totalItems := $.Scratch.Get "countItems" }}
-                      <div class="item" id="item{{ $totalItems}}">
+                      <div class="item itemCarouselDestinos" id="item{{ $totalItems}}">
                         <div class="flex">
                         {{ $.Scratch.Set "count" 0 }}
                     {{ else }}
