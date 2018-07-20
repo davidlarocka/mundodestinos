@@ -22,7 +22,7 @@
     </section>
   </section>
   <aside class="sidebar">
-    <div class="itemSide">
+    <div class="itemSide fotosSide">
       <h2 class="after">Fotos </h2>
       <div class="row">
         {{ $imgcostado := .Params.ruta_img_costado }}
@@ -35,7 +35,7 @@
         {{ end }}
       </div>
     {{ if .Params.video_exist }}
-      <div class="itemSide">
+      <div class="itemSide videoSide">
       <h2 class="after">Video</h2>
       <div class="row">
         <figure class="col m12 s12">
@@ -47,7 +47,7 @@
       </div>
       </div>
     {{ end }}
-    <div class="itemSide">
+    <div class="itemSide mapaSide">
       <!-- NOTE: cargar el mapa programaticamente con javascript -->
       <h2 class="after">Mapa</h2>
       <div class="row">
@@ -57,7 +57,7 @@
         </figure>
       </div>
     </div>
-    <div class="itemSide center">
+    <div class="itemSide center descargarSide">
       <a href="{{ $.Site.BaseURL }}{{ .Params.ficha_hotel }}" target="_blank" class="btn wIcon btn-flat"><span> Descargar Ficha </span><i class="material-icons hide-on-med-and-down">file_download</i></a>
     </div>
   </aside>

@@ -94,7 +94,7 @@
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
-            <div class="item active">
+            <div class="item active carouselHomeItem">
               <div class="flex">
                 {{ $.Scratch.Set "count" 0 }}
                 {{ range .Site.Data.hoteles.hoteles_data }}
@@ -107,7 +107,7 @@
                       {{ $.Scratch.Set "count" 0 }}
               </div>
             </div>
-            <div class="item">
+            <div class="item carouselHomeItem">
               <div class="flex">
                 {{ else }}
                   <a href="{{ .path }}">
