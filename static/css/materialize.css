@@ -7313,14 +7313,15 @@ footer {
 
 #explorer {
   background-color: #1EB3AC;
-  padding: 1em;
+  padding: 0.5em 1em;
   display: none; }
   #explorer h2 {
-    color: #FFF; }
+    color: #FFF;
+    font-size: 1.5rem; }
   #explorer #navegadores a img {
-    width: 4em;
-    max-height: 5em;
-    margin: 0em 1em; }
+    width: 3em;
+    max-height: 4em;
+    margin: 0em 2em; }
 
 /*-------------------------------------
 
