@@ -736,11 +736,6 @@
                 "nombre": "Breathless Montego Bay Resort Spa",
                 "imagen": "img/zonas/caribe/destinos/montego_bay/cadenas_hoteleras/am_resort/breathless/breathless_montego_bay_resort_spa/principal_breathless_montego_bay_resort_spa.jpg",
                 "path": "hoteles_zonas/zona_caribe/breathless/breathless_montego_bay_resort_spa"
-              },
-              {
-                "nombre": "Meliá Braco",
-                "imagen": "img/zonas/caribe/destinos/rio_bueno/cadenas_hoteleras/melia_braco/principal_melia_braco.jpg",
-                "path": "hoteles_zonas/zona_caribe/melia/melia_braco"
               }
             ]
           },

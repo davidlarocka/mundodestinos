@@ -98,33 +98,32 @@
   $("#zona").val(zones[index + 1]);
 
 
-  document.addEventListener('DOMContentLoaded', (e) => {
-     let formulario = document.querySelector('#formulario');
-     console.log(formulario);
-     formulario.addEventListener('submit', (e) => {
-         e.preventDefault();
-         console.log("Submit");
-         let datos = {
-             "nombre": e.target[0].value,
-             "email": e.target[1].value,
-             "zona": e.target[2].value
-         };
-         console.table(datos);
-         $.ajax({
-             type: 'POST',
-             url: '{{ $.Site.BaseURL}}formulario.php',
-             data: datos,
-             success: (resp, status) => {
-                 if(status === 'success'){
-                     toastr.success('Contacto enviado correctamente');
-                     console.log(resp);
-                     formulario.reset();
-                 }
-             }
-         });
-
-     });
-  });
+  document.addEventListener('DOMContentLoaded', function (e) {
+    var formulario = document.querySelector('#formulario');
+    console.log(formulario);
+    formulario.addEventListener('submit', function (e) {
+        e.preventDefault();
+        console.log("Submit");
+        var datos = {
+            "nombre": e.target[0].value,
+            "email": e.target[1].value,
+            "zona": e.target[2].value
+        };
+        console.table(datos);
+        $.ajax({
+            type: 'POST',
+            url: '{{ $.Site.BaseURL}}formulario.php',
+            data: datos,
+            success: function success(resp, status) {
+                if (status === 'success') {
+                    toastr.success('Contacto enviado correctamente');
+                    console.log(resp);
+                    formulario.reset();
+                }
+            }
+        });
+    });
+});
 
   //colocamos el logo segun corresponda la agencia
     function searchLogo(url){

@@ -12,7 +12,7 @@ bajada_content: "Los Emiratos Árabes Unidos –EAU-  es un país constituido po
 hoteles: [""]
 weight: 4
 url_zona : "zonas/asia/asia"
-url_destino: "zonas/asia/destinos/emiratos_arabe"
+url_destino: "zonas/asia/destinos/emiratos_arabes"
 hotel_pertenece: []
 logos_collec: ["Mapa Plus", "Avis", "Assist Card"]
 tiene_logo: true
