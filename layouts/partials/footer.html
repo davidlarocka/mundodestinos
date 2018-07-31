@@ -127,8 +127,14 @@
 
   //colocamos el logo segun corresponda la agencia
     function searchLogo(url){
-        if(url.indexOf('falabella') != -1){
+        var hrefUrl = window.location.href;
+        if(hrefUrl.indexOf('lan') == 7 || hrefUrl.indexOf('lan') == 11 ){
 
+          setCookie("urlimagelogo", 'img/logos/lan.png', 3);
+          return 'img/logos/lan.png';
+        }
+
+        if(url.indexOf('falabella') != -1){
           setCookie("urlimagelogo", 'img/logos/viajes_falabella.png', 3);
           return 'img/logos/viajes_falabella.png';
         }
@@ -165,11 +171,6 @@
 
           setCookie("urlimagelogo", 'img/logos/baltazar.png', 3);
           return 'img/logos/baltazar.png';
-        }
-        else if(url.indexOf('lan') != -1){
-
-          setCookie("urlimagelogo", 'img/logos/lan.png', 3);
-          return 'img/logos/lan.png';
         }
         else if(url.indexOf('cocha') != -1){
 
