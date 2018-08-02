@@ -129,7 +129,6 @@
     function searchLogo(url){
         var hrefUrl = window.location.href;
         if(hrefUrl.indexOf('lan') == 7 || hrefUrl.indexOf('lan') == 11 ){
-
           setCookie("urlimagelogo", 'img/logos/lan.png', 3);
           return 'img/logos/lan.png';
         }
@@ -148,8 +147,8 @@
           return 'img/logos/blanco.png';
         }
         else if(url.indexOf('cwt') != -1){
-
-          setCookie("urlimagelogo", 'img/logos/cwt.png', 3);
+          setCookie("urlimagelogo", 'img/logos/cwt.png', 4);
+          var logoClass = "squareLogo";
           return 'img/logos/cwt.png';
         }
         else if(url.indexOf('mundotour') != -1){
@@ -256,6 +255,13 @@
     }
 
     $("#logo_image").attr("src", {{ $.Site.BaseURL }} + searchLogo(fullUrl));
+
+    if (searchLogo(fullUrl) == "img/logos/cwt.png" || searchLogo(fullUrl) == "img/logos/mundotour.png" || searchLogo(fullUrl) == "img/logos/dorado.png" || searchLogo(fullUrl) == "img/logos/kaylu.png" ) {
+      $("#logo_image").addClass('squareLogo');
+    }
+    if (searchLogo(fullUrl) == "img/logos/andinadelsud.png" || searchLogo(fullUrl) == "img/logos/forum.png" ) {
+      $("#logo_image").addClass('longLogo');
+    }
 
     var base_url = window.location.origin;
     var folder = '/ads';

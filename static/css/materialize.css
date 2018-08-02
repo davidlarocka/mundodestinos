@@ -6869,6 +6869,12 @@ html {
     margin-right: 1.7rem; }
   .adslogo .adsTitle {
     padding-right: 29%; }
+  .adslogo .squareLogo {
+    height: 4.8em;
+    width: auto; }
+  .adslogo .longLogo {
+    height: 1.5em;
+    width: auto; }
 
 h1 {
   font-family: "Roboto Condensed", sans-serif;
