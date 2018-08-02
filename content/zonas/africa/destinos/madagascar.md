@@ -14,7 +14,7 @@ hoteles: ""
 weight: 6
 draft: false
 url_zona : "zonas/africa/africa"
-url_destino: "zonas/africa/destinos/kenya"
+url_destino: "zonas/africa/destinos/madagascar"
 hotel_pertenece: []
 logos_collec: ["Mapa Plus", "Avis", "Assist Card"]
 tiene_logo: true

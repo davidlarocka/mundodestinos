@@ -229,10 +229,6 @@ main.gridWithAside.pagesAside.container .sidebar .itemSide.descargarSide{
 	margin-left: 25%
 }
 
-main.gridWithAside.pagesAside.container .mainContent div img{
-	max-width: 77%;
-}
-
 
 .sidebar .hoteles a{
 	flex-basis: 39%;
@@ -373,7 +369,7 @@ main.gridWithAside.pagesAside .sidebar .itemSide.descargarSide{
 }
 
 main.gridWithAside.pagesAside.container .mainContent div img{
-	max-width: 77%;
+	max-width: 45em;
 }
 
 
